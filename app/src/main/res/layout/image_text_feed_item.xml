@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/detail_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/resource_1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/detail_image_content_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:autoLink="email"
+        android:lineSpacingExtra="4sp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="@tools:sample/lorem/random" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

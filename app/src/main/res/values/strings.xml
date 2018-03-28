@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CHARUSAT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next_label">Next</string>
+
+    <string-array name="institutes_array">
+        <item>CSPIT</item>
+        <item>Pharmacy</item>
+        <item>Physiotherapy</item>
+        <item>Nursing</item>
+        <item>BCA &amp; MCA</item>
+        <item>BBA &amp; MBA</item>
+        <item>PDPIAS</item>
+    </string-array>
+
+    <string-array name="departments_array">
+        <item>IT</item>
+        <item>Dept 2</item>
+        <item>Dept 3</item>
+        <item>Dept 4</item>
+        <item>Dept 5</item>
+    </string-array>
+
+    <string name="about_institute">Institute</string>
+    <string name="admission_stats">Admission</string>
+    <string name="placement">Placement &amp; Higher Study</string>
+    <string name="resources">Resources</string>
+    <string name="international_collab">Collaborations</string>
+    <string name="ipr">IPR</string>
+    <string name="best_practices">Best Practices</string>
+    <string name="students_achievements">Student Achievements</string>
+    <string name="grant">Grant &amp; Consultancy</string>
+    <string name="pro_body_chapters">Professional Body Chapters</string>
+    <string name="faculty_information">Faculty Info</string>
+    <string name="how_to_reach">Reach Us</string>
+    <string name="about_us">About Us</string>
+    <string name="btnOK">Submit</string>
+    <string name="toggle_content_description">Click to expand</string>
+    
+    <string name="vision">Vision</string>
+    <string name="mission">Mission</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="in.ac.charusat.charusat.fragments.HomeFragment">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/banner_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/charusat_banner" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/institute_spinner"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/dept_spinner"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/info_list_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/btnOK"
+        android:textColor="@android:color/white" />
+
+</android.support.v7.widget.LinearLayoutCompat>

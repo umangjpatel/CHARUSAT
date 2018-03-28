@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="it_about_dept">The Department of Information Technology offers B.Tech. and M.Tech. in Information Technology programme. The department has strong collaboration with industries and has signed MOU with many leading industries. The graduates have found remarkable placements in prestigious national and international companies and many are pursuing their higher studies from premier institutes in India and abroad.
+The department has competent and devoted faculty. The computer facilities comprise laboratories of 1000+ computers and more than 20 Servers all are interconnected through fiber optic cable network.
+Department was accredited for three year w.e.f 19/07/2016 by National Board of Accreditation.
+Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
+    <string name="it_vision_dept">\"To inculcate excellent education to enhance professional behavior, strong ethical values, innovative research capabilities and leadership abilities in the young minds so as to work with a commitment to the progress of the country.\"</string>
+    <string name="it_mission_dept">\"To impart quality education in both theoretical and applied foundations of IT and educate students to effectively apply this education to solve real-world problems thus strengthening their lifelong high-quality careers in global work environment of the 21st century\"</string>
+
+    <string name="placement_heading_label">Placements</string>
+
+    <string name="top_placements_heading_label">Top Placements</string>
+
+    <string name="it_sophos">Sophos Lab</string>
+    <string name="it_vr">Virtual Reality Lab</string>
+    <string name="it_pearson">Pearson Vue Exam Centre</string>
+    <string name="it_labs">Laboratories</string>
+    <string name="it_mm_hall">Multimedia Hall</string>
+    <string name="it_internet_lab">Internet Lab</string>
+    <string name="it_server_room">Server Room</string>
+
+    <string name="it_resource_sophos">The multimedia hall is equipped with computer and LCD projector. The hall is designed for the purpose of teachers\' training, classroom teaching and students\' presentations.</string>
+    <string name="it_resource_vr">There are more than 15 state-of-the-art computer laboratories in the CE/IT departments. They are well-equipped with desktop computers with latest configurations and softwares. The lab computers and softwares have been procured keeping in view the educational requirements and the industry trends. All the labs are equipped with IBM, DELL and HP computers.</string>
+    <string name="it_resource_pearson">The multimedia hall is equipped with computer and LCD projector. The hall is designed for the purpose of teachers\' training, classroom teaching and students\' presentations.</string>
+    <string name="it_resource_labs">There are more than 15 state-of-the-art computer laboratories in the CE/IT departments. They are well-equipped with desktop computers with latest configurations and softwares. The lab computers and softwares have been procured keeping in view the educational requirements and the industry trends. All the labs are equipped with IBM, DELL and HP computers.</string>
+    <string name="it_resource_mm_hall">The multimedia hall is equipped with computer and LCD projector. The hall is designed for the purpose of teachers\' training, classroom teaching and students\' presentations.</string>
+    <string name="it_resource_internet_lab">The college’s Internet labs are equipped with latest softwares for the students. The labs are equipped with the branded computers with latest configurations.</string>
+    <string name="it_resource_server_room">The computer network of CHARUSAT is controlled from the server room of the CSPIT. The server room is equipped with IBM Blade Server with latest configurations. A network software \"Cyberoam\" is used to control the Internet usage on the campus.</string>
+
+    <string name="it_intl_collab">International Collaborations</string>
+    <string name="it_collaborations">Department of Information Technology has setup the Center of Excellence in collaboration with Systems Research Institute, Polish Academy, Poland</string>
+
+    <string name="it_ipr_1">July 2016 to June 2017</string>
+    <string name="it_ipr_2">July 2015 to June 2016</string>
+    <string name="it_ipr_3">July 2014 to June 2015</string>
+    <string name="it_ipr_4">July 2013 to June 2014</string>
+    <string name="it_ipr_5">July 2012 to June 2013</string>
+    <string name="it_ipr_6">July 2011 to June 2012</string>
+    <string name="it_ipr_7">July 2010 to June 2011</string>
+    <string name="it_ipr_8">July 2009 to June 2010</string>
+
+    <string name="it_detail_ipr_1">Journals : 7\nConferences : 14</string>
+    <string name="it_detail_ipr_2">Journals : 5\nConferences : 8</string>
+    <string name="it_detail_ipr_3">Journals : 7\nConferences : 17</string>
+    <string name="it_detail_ipr_4">Journals : 13\nConferences : 7</string>
+    <string name="it_detail_ipr_5">Journals : 3\nConferences : 2</string>
+    <string name="it_detail_ipr_6">Journals : 19\nConference : 0</string>
+    <string name="it_detail_ipr_7">Journals : 7\nConferences : 3</string>
+    <string name="it_detail_ipr_8">Journals : 2\nConferences : 9</string>
+
+
+    <string name="it_counselling">One to One Student Counselling</string>
+    <string name="it_mooc">Academic Enrichment for Faculties through MOOC exams</string>
+    <string name="it_ict">Academic Enrichment for Students through ICT</string>
+    <string name="it_evaluation">Continuous Evaluation And Collaborative Environment</string>
+    <string name="it_curricular">Best Practice on Curricular Aspects</string>
+    <string name="it_expert_sessions">Learning through Expert sessions and Video Lectures.</string>
+    <string name="it_faculty_industry">Faculty Industry Interaction</string>
+    <string name="it_new_practicals">New practicals with latest technology in field of computer science.</string>
+    <string name="it_dept_website">Departmental Website and Personal Academic Blog</string>
+    <string name="it_pre_placement">Pre-Placement Orientation Activity</string>
+
+    <string name="it_detail_counselling">• Know students individually.\n• Understand their likes, dislikes, goals and dreams.\n• Know their problems at personal level, so that they could be solved and they can perform better at academic level.</string>
+    <string name="it_detail_mooc">• Develop a more in-depth and practical exposure of particular subject by enrolling in certification course from reputed university.\n• Best and innovative method for updating their domain knowledge.\n• To gain academic excellence and impart knowledge in detail to students.</string>
+    <string name="it_detail_ict">• To develop skill required by Data Compression &amp; various Software Tools.\n• To diversify the Programme contents and to establish greater relevance to local socio-economic problems.\n• Demonstrate new models of intervention facilitating critical thinking and analysis by responding to the emerging needs and changing social realities.</string>
+    <string name="it_detail_evaluation">• To allow teachers of various courses to evaluate the performance of their students in accordance with the objectives they had set before themselves.\n• To abolish set syllabi and external examinations based on them.\n• To replace them by a system of internal and continuous evaluation in form of unit test, quiz and through collaborative learning by teachers.</string>
+    <string name="it_detail_curricular">• Demonstrate new models of critical thinking and analysis by responding to the emerging needs changing industry realities.\n• To introduce job-oriented and skill-based courses.\n• Contribute to generating new knowledge for teaching in classrooms and allow testing of theories infield practice.</string>
+    <string name="it_detail_expert_sessions">Audiovisual material provides a rich medium for teaching and learning. Video can effectively communicate complex information to a student and, if used creatively, can become a powerful expressive tool. Similarly expert sessions are also very useful method for teaching the students as they become comparator to outsiders. While using video lectures and expert sessions as a teaching tool can help to engage students and also prepare the students as per the industry current trends.</string>
+    <string name="it_detail_faculty_industry">• To build the healthy relation with industry.\n• To provide practical exposure to faculties when needed in form of training under latest technologies.\n• To held the Faculty Development Programme by Industry personal.</string>
+    <string name="it_detail_new_practicals">Although there has been a strong push to get educational technology into the hands of teachers and students, many obstacles to implementation still exist. Initial technology may not be sustained and thus not capable of providing upgrades, maintenance, and ongoing professional development. Teachers motivate to students to learn new technology skills. Fortunately, these obstacles can be addressed and overcome with practical\'s updating methodology. This critical issue provides practical information for promoting new technology use.</string>
+    <string name="it_detail_dept_website">• Departmental website to publish news, events, student Attendance, faculty info, etc for students, faculties and parents.\n• To effectively communicate with parents, students. Personal Blog to publish their tutorial, projects, assignments etc. and to improve communication/interaction with student, parents and colleagues. By blogs, student can critically assess and evaluate various online resources.\n• To support teaching learning process effectively.</string>
+    <string name="it_detail_pre_placement">• To prepare the students for an interview.\n• To arrange the lectures for aptitude session, logical reasoning and soft skills\n• To provide the guidance for competitive exams.</string>
+
+
+    <string name="it_achievement_1">Online AWS Database Challenge by TechGig</string>
+    <string name="it_achievement_2">National Sustainability Case Challenge 2017 &#8211; 18</string>
+    <string name="it_achievement_3">GDD India 2017</string>
+    <string name="it_achievement_4">DAIICT Hackathon</string>
+    <string name="it_achievement_5">NPTEL MOOC Course</string>
+    <string name="it_achievement_6">TCS Placement</string>
+    <string name="it_achievement_7">NPTEL Module Exam</string>
+    <string name="it_achievement_8">World Leadership Federation Awards</string>
+    <string name="it_achievement_9">India@75 Hackathon 2017</string>
+    <string name="it_achievement_10">Techno-Stuff</string>
+    <string name="it_achievement_11">i.Big &amp; TicTacToe Hack 2016</string>
+    <string name="it_achievement_12">Testimony competition of Software Testing</string>
+    <string name="it_achievement_13">SRAJAN’17</string>
+    <string name="it_achievement_14">UDAAN’17</string>
+
+
+    <string name="it_detail_achievement_1">Dhruval Shah (15IT122) an aspiring student from Department of Information Technology had registered for online AWS Database Challenge by TechGig. Every participant was provided two chances for the quiz. Dhruval Shah, 3rd year IT student secured 136th rank all over India with 85% in the first attempt. Moreover, in the second attempt with 100% score, he secured 24th position nationwide.</string>
+    <string name="it_detail_achievement_2">Riddhi Devang Tripathi (15IT147) and Margi Dhavalbhai Thaker (15IT140) they won THIRD POSITION in the \"National Sustainability Case Challenge\" contest 2017&#8211;2018 organized by Birla Institute of Management Technology. In the first round 250 teams participated from India among them 50 teams were shortlisted after the first round. In the first phase at BIMTECH case was to be presented in front of internal jury out of which 8 teams were shortlisted for second phase and shortlisted teams had to present in front External Jury which were from UNGC and KPMG. TOP FIVE were selected out of which they gained Third Position on 10/02/2018. They got CERTIFICATE accredited by UNGC and Rs.25000</string>
+    <string name="it_detail_achievement_3">To enhance the technical skills of Web and Mobile Developers of the India, an event \"Google Developer Days India\" was organized by Google at Bengaluru International Exhibition Center, Bengaluru on 1st - 2nd December 2017. Following are the students: Meet Shah (15IT126), Dhruval Shah (15IT122), Brijesh Shah (15IT121), Harsh Patel (15IT077) shortlisted based on professional profiles and projects (from the platforms like Github, StackOverflow, Linkedin etc.). Many of the students had expressed their interest from CHARUSAT University, out of which 4 students from Department of Information Technology were shortlisted.</string>
+    <string name="it_detail_achievement_4">To escalate career of the students, DAIICT, Gandhinagar had organized national level hackathon event in Gandhinagar. Students of undergraduate and post-graduate of distinct fields have registered in hackathon event. Meet Shah (15IT126) has taken part in hackathon event and he has elected in a team of top 10 members. (12/11/2017)</string>
+    <string name="it_detail_achievement_5">To grasp the knowledge, NPTEL organizes MOOC course every year for the students. Dhruvin Kalavadia (15IT037) had given best performance in evaluation and testing process. From the excellent performance in NPTEL exam, he had been offered to get admission for Master degree in engineering by NPTEL, IIT Delhi.(15/12/2017)</string>
+    <string name="it_detail_achievement_6">Tata Consultancy Services (TCS) offers job and placement with high package and great deal of accommodation to the last year engineering students every year by TESTimony and Codevita offcampus exam. Harsh Shah (14IT120) had got special offer of annual package of Rs. 6.33 lakh from his excellent coding and logical problem solving skills.(12/8/2017)</string>
+    <string name="it_detail_achievement_7">Meet Shah (15IT126) has appeared in NPTEL module exam. He had consolidated a score of 92% .(1/7/2017 – 1/9/2017)</string>
+    <string name="it_detail_achievement_8">Meet Thakkar made his presence and has been declared the winner of high flyers 2016, \"World leadership Federation Awards\" organized by Collabera and TACT at the Address Marina Dubai.</string>
+    <string name="it_detail_achievement_9">Pratik Lanani made his presence and secured 2nd Runner Up Position at \"India@75 Hackathon 2017\" which was organized at Pragati Maidan on 3rd and 4th February 2017, coinciding with International Engineering and Technology Fair (IETF) 2017.</string>
+    <string name="it_detail_achievement_10">Garvit Patel and Rohan Hemani awarded 1st Prize in the technical event \"Techno-Stuff\" organized by IT department on Annual day.</string>
+    <string name="it_detail_achievement_11">Pratik lalani secured 1st rank in event \"i.Big\" and 2nd rank in the event TicTacToe\'16 Hackathon organized by DAIICT, Gandhinagar</string>
+    <string name="it_detail_achievement_12">Vishal Dhanadiya and Richa Desai secured 2nd Runner Up Position in \"Testimony competition of Software Testing\"sponsored by TCS. This competition was among 40,000 team from PAN India.</string>
+    <string name="it_detail_achievement_13">Vivek Pujara and Parthav Shah presented a project on \"Smart Trolley\" in SRAJAN\'17 organized at Maulana Azad National Institute of Technology Bhopal(MP), India and secured 1st rank.</string>
+    <string name="it_detail_achievement_14">Deepak pandey and Dnyaneshwar Bhadne secured 1st position in event \"Barter The Partner\" in Technical fiesta UDAAN\'17 organized by BVM,VV Nagar.</string>
+
+
+    <string name="it_grant_1">Research Opportunites in IoT</string>
+    <string name="it_grant_2">Machine Learning : An Approach to Achieve AI</string>
+    <string name="it_grant_3">Machine Learning : An Approach to Achieve AI</string>
+    <string name="it_grant_4">Workshop on NPTEL</string>
+    <string name="it_grant_5">Role of Women in Professional Life</string>
+    <string name="it_grant_6">Book Location using RFID (Project Development)</string>
+    <string name="it_grant_7">Automatic Invoice Generator Trolley (Project Development)</string>
+    <string name="it_grant_8">Intranet-based Ebook Search Engine (Project Development)</string>
+    <string name="it_grant_9">Home Automation using Raspberry Pi (Project Development)</string>
+    <string name="it_grant_10">Infrastructure setup for A-View Classroom Project (Completed)</string>
+    <string name="it_grant_11">Design of Algorithms</string>
+    <string name="it_grant_12">Security issues in IoT software</string>
+    <string name="it_grant_13">Aakash-2 Project (Completed)</string>
+    <string name="it_grant_14">Simulation of Wired &amp; Wireless Computer Network Workshop</string>
+    <string name="it_grant_15">Research Methodology in Science &amp; Engineering Workshop</string>
+    <string name="it_grant_16">QoS in Wired &amp; Wireless Networks Workshop</string>
+    <string name="it_grant_17">Computer Networking Workshop (30/06/2014 to 05/07/2014)</string>
+    <string name="it_grant_18">Computer Programming Workshop (16/06/2014 to 21/06/2014)</string>
+    <string name="it_grant_19">ESDM Workshop</string>
+    <string name="it_grant_20">Adavance Computing &amp; Big Data Workshop</string>
+    <string name="it_grant_21">Database Management System Workshop (21/05/2013 to 31/05/2013)</string>
+
+    <string name="it_detail_grant_1"> <b>Date : </b>21st Jan, 2018\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Amit Nayak and Prof. Parth Shah\n
+    <b>Amount Received : </b>Rs. 50,000</string>
+
+    <string name="it_detail_grant_2"> <b>Date : </b>Dec, 2017\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh\n
+    <b>Amount Received : </b>Rs. 40,000</string>
+
+    <string name="it_detail_grant_3"> <b>Date : </b>Dec, 2017\n
+    <b>Organization : </b>ACM\n
+    <b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh\n
+    <b>Amount Received : </b>Rs. 10,000</string>
+
+    <string name="it_detail_grant_4"> <b>Date : </b>8th April, 2017\n
+    <b>Organization : </b>NPTEL Chapter\n
+    <b>Faculty : </b>Prof. Nirav Bhatt\n
+    <b>Amount Received : </b>Rs. 92,500</string>
+
+    <string name="it_detail_grant_5"> <b>Date : </b>11th Feb, 2017\n
+    <b>Organization : </b>ACM\n
+    <b>Faculty : </b>Prof. Parth Shah, Prof. Purvi Prajapati and Prof. Sonal Rami \n
+    <b>Amount Received : </b>Rs. 9,037</string>
+
+    <string name="it_detail_grant_6"> <b>Date : </b>15th Dec, 2015\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Parth Shah\n
+    <b>Amount Received : </b>Rs. 15,900</string>
+
+    <string name="it_detail_grant_7"> <b>Date : </b>15th Dec, 2015\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Pinal Shah\n
+    <b>Amount Received : </b>Rs. 17,700</string>
+
+    <string name="it_detail_grant_8"> <b>Date : </b>15th Dec, 2015\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Hemant Yadav\n
+    <b>Amount Received : </b>Rs. 10,500</string>
+
+    <string name="it_detail_grant_9"> <b>Date : </b>15th Dec, 2015\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Ravi Patel\n
+    <b>Amount Received : </b>Rs. 23,400</string>
+
+    <string name="it_detail_grant_10"> <b>Date : </b>4th Sept, 2015\n
+    <b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay\n
+    <b>Faculty : </b>Prof. Ayesha Shaikh\n
+    <b>Amount Received : </b>Rs. 2,80,000</string>
+
+    <string name="it_detail_grant_11"> <b>Date : </b>30th May, 2015\n
+    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Kharagpur\n
+    <b>Faculty : </b>Prof. Ayesha Shaikh\n
+    <b>Amount Received : </b>Rs. 30,000</string>
+
+    <string name="it_detail_grant_12"> <b>Date : </b>31th Mar, 2015\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Parth Shah\n
+    <b>Amount Received : </b>Rs. 30,000</string>
+
+    <string name="it_detail_grant_13"> <b>Date : </b>4th Nov, 2014\n
+    <b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay\n
+    <b>Faculty : </b>Prof. Ayesha Shaikh\n
+    <b>Amount Received : </b>Rs. 1,00,000</string>
+
+    <string name="it_detail_grant_14"> <b>Date : </b>7th Oct, 2014\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Parth Shah\n
+    <b>Amount Received : </b>Rs. 30,000</string>
+
+    <string name="it_detail_grant_15"> <b>Date : </b>7th Oct, 2014\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Amit Thakkar\n
+    <b>Amount Received : </b>Rs. 15,000</string>
+
+    <string name="it_detail_grant_16"> <b>Date : </b>7th Oct, 2014\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Purvi Prajapati\n
+    <b>Amount Received : </b>Rs. 15,000</string>
+
+    <string name="it_detail_grant_17"> <b>Date : </b>4th Jul, 2014\n
+    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
+    <b>Faculty : </b>Prof. Prof. Ayesha Shaikh &amp; Prof. Amit Nayak\n
+    <b>Amount Received : </b>Rs. 62,810</string>
+
+    <string name="it_detail_grant_18"> <b>Date : </b>14th Jun, 2014\n
+    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
+    <b>Faculty : </b>Prof. Ayesha Shaikh &amp; Prof. Parth Shah\n
+    <b>Amount Received : </b>Rs. 84,885</string>
+
+    <string name="it_detail_grant_19"> <b>Date : </b>9th May, 2014\n
+    <b>Organization : </b>CSI\n
+    <b>Faculty : </b>Prof. Parth Shah \n
+    <b>Amount Received : </b>Rs. 24,000</string>
+
+    <string name="it_detail_grant_20"> <b>Date : </b>8th Nov, 2013\n
+    <b>Organization : </b>GUJCOST\n
+    <b>Faculty : </b>Prof. Parth Shah\n
+    <b>Amount Received : </b>Rs. 35,000</string>
+
+    <string name="it_detail_grant_21"> <b>Date : </b>5th Jun, 2013\n
+    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
+    <b>Faculty : </b>Prof. Ayesha Shaikh\n
+    <b>Amount Received : </b>Rs. 1,56,780</string>
+
+
+    <string name="it_ieee">IEEE</string>
+    <string name="it_csi">CSI</string>
+    <string name="it_acm">ACM</string>
+
+    <string name="it_detail_ieee">IEEE is the world\'s largest professional association dedicated to advancing technological innovation and excellence for the benefit of humanity. CHARUSAT is an official Student Branch of IEEE. Tech Enthusiastic Student IEEE Members of CHARUSAT organizes technical activities like workshops, seminars and Technical Festivals to motivate and increase other student\'s interest in technical research and innovations.IEEE Student Branches are established at universities and colleges around the world. Within IEEE, activities are organized geographically by Region and local Section. Student Branches in R10 with Counselor &amp; Chair contact August 2015,CHARUSAT University is one of the active Student branch in Asia and Pacific Region.</string>
+    <string name="it_detail_csi">CHARUSAT University is affiliated with IWS Academy and convert affiliation to a life time relationship.Charusat University initiate a new concept named IEEE TECH WINDOW.It is a technical Wall. A medium for students to share the technical updates with each other.</string>
+    <string name="it_detail_acm">The Association for Computing Machinery is an international learned society for computing, founded in 1947. ACM is the world\'s largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM is solely dedicated to computing. ACM provides the computing field\'s premier digital library and serves its members and the computing profession with leading-edge publications, conferences and career resources. CHARUSAT is an official Student Chapter of ACM initiated by Department of Information Technology, CSPIT on 26th August 2016.</string>
+
+    <string name="it_hod">Dr. Parth Shah</string>
+    <string name="it_detail_hod"><b>Head of Department</b>
+        \nAssociate Professor
+        \nB.E.(C.E.), M.E.(C.E.), Ph.D.
+        \nArea of Interest: Networking, Database Server Architecture, Enterprise Application Development
+        \nEmail: parthshah.ce@charusat.ac.in
+        \nExt. No. 5131</string>
+
+</resources>

@@ -54,12 +54,12 @@ class HeadingView {
     }
 
     @Expand
-    void onExpand(){
+    void onExpand() {
         toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_up));
     }
 
     @Collapse
-    void onCollapse(){
+    void onCollapse() {
         toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_down));
     }
 

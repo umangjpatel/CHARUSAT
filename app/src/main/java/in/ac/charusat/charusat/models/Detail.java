@@ -9,9 +9,10 @@ import android.os.Parcelable;
 
 public class Detail implements Parcelable {
 
-    public static final int ONLY_TEXT_TYPE = 0, IMAGE_TEXT_TYPE = 1, ONLY_IMAGE_TYPE = 2, TABLE_VIEW_TYPE = 3;
+    public static final int ONLY_TEXT_TYPE = 0, IMAGE_TEXT_TYPE = 1, ONLY_IMAGE_TYPE = 2,
+            TWO_IMAGES_TYPE = 3, MAP_ADDRESS_TYPE = 4, DIRECT_TEXT_TYPE = 5;
 
-    private int mType, mHeaderResId, mContentResId, mImageResId;
+    private int mType, mHeaderResId, mContentResId, mImageResId, mFirstImageResId, mSecondImageResId;
 
     public Detail(int type, int headerResId, int contentResId) {
         mType = type;
@@ -32,11 +33,21 @@ public class Detail implements Parcelable {
         mHeaderResId = headerResId;
     }
 
+    public Detail(int type, int headerResId, int firstImageResId, int secondImageResId, boolean isTwoImages) {
+        mType = type;
+        mHeaderResId = headerResId;
+        mFirstImageResId = firstImageResId;
+        mSecondImageResId = secondImageResId;
+    }
+
+
     protected Detail(Parcel in) {
         mType = in.readInt();
         mHeaderResId = in.readInt();
         mContentResId = in.readInt();
         mImageResId = in.readInt();
+        mFirstImageResId = in.readInt();
+        mSecondImageResId = in.readInt();
     }
 
     public static final Creator<Detail> CREATOR = new Creator<Detail>() {
@@ -67,6 +78,13 @@ public class Detail implements Parcelable {
         return mImageResId;
     }
 
+    public int getFirstImageResId() {
+        return mFirstImageResId;
+    }
+
+    public int getSecondImageResId() {
+        return mSecondImageResId;
+    }
 
     @Override
     public int describeContents() {
@@ -79,5 +97,7 @@ public class Detail implements Parcelable {
         dest.writeInt(mHeaderResId);
         dest.writeInt(mContentResId);
         dest.writeInt(mImageResId);
+        dest.writeInt(mFirstImageResId);
+        dest.writeInt(mSecondImageResId);
     }
 }

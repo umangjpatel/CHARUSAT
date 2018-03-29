@@ -42,5 +42,4 @@ dependencies {
     implementation 'com.android.support:cardview-v7:27.1.0'
     implementation 'com.mindorks.android:placeholderview:1.0.0'
     annotationProcessor 'com.mindorks.android:placeholderview-compiler:1.0.0'
-    implementation 'de.codecrafters.tableview:tableview:2.8.0'
 }

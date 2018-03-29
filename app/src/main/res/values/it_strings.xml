@@ -8,9 +8,13 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
     <string name="it_vision_dept">\"To inculcate excellent education to enhance professional behavior, strong ethical values, innovative research capabilities and leadership abilities in the young minds so as to work with a commitment to the progress of the country.\"</string>
     <string name="it_mission_dept">\"To impart quality education in both theoretical and applied foundations of IT and educate students to effectively apply this education to solve real-world problems thus strengthening their lifelong high-quality careers in global work environment of the 21st century\"</string>
 
-    <string name="placement_heading_label">Placements</string>
 
-    <string name="top_placements_heading_label">Top Placements</string>
+    <string name="it_btech_admission_stats">B.Tech (Intake 120)</string>
+    <string name="it_mtech_admission_stats">M.Tech (Intake 18)</string>
+
+    <string name="placement_heading_label">Placements Statistics</string>
+
+    <string name="higher_studies_heading_label">Higher Studies Statistics</string>
 
     <string name="it_sophos">Sophos Lab</string>
     <string name="it_vr">Virtual Reality Lab</string>
@@ -31,24 +35,9 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
     <string name="it_intl_collab">International Collaborations</string>
     <string name="it_collaborations">Department of Information Technology has setup the Center of Excellence in collaboration with Systems Research Institute, Polish Academy, Poland</string>
 
-    <string name="it_ipr_1">July 2016 to June 2017</string>
-    <string name="it_ipr_2">July 2015 to June 2016</string>
-    <string name="it_ipr_3">July 2014 to June 2015</string>
-    <string name="it_ipr_4">July 2013 to June 2014</string>
-    <string name="it_ipr_5">July 2012 to June 2013</string>
-    <string name="it_ipr_6">July 2011 to June 2012</string>
-    <string name="it_ipr_7">July 2010 to June 2011</string>
-    <string name="it_ipr_8">July 2009 to June 2010</string>
-
-    <string name="it_detail_ipr_1">Journals : 7\nConferences : 14</string>
-    <string name="it_detail_ipr_2">Journals : 5\nConferences : 8</string>
-    <string name="it_detail_ipr_3">Journals : 7\nConferences : 17</string>
-    <string name="it_detail_ipr_4">Journals : 13\nConferences : 7</string>
-    <string name="it_detail_ipr_5">Journals : 3\nConferences : 2</string>
-    <string name="it_detail_ipr_6">Journals : 19\nConference : 0</string>
-    <string name="it_detail_ipr_7">Journals : 7\nConferences : 3</string>
-    <string name="it_detail_ipr_8">Journals : 2\nConferences : 9</string>
-
+    <string name="it_publications">Publication Summary</string>
+    <string name="it_book_publication">Book Publications</string>
+    <string name="it_detail_book_publication">Books with ISBN with details of publishers : 7</string>
 
     <string name="it_counselling">One to One Student Counselling</string>
     <string name="it_mooc">Academic Enrichment for Faculties through MOOC exams</string>
@@ -105,129 +94,90 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
     <string name="it_detail_achievement_14">Deepak pandey and Dnyaneshwar Bhadne secured 1st position in event \"Barter The Partner\" in Technical fiesta UDAAN\'17 organized by BVM,VV Nagar.</string>
 
 
-    <string name="it_grant_1">Research Opportunites in IoT</string>
-    <string name="it_grant_2">Machine Learning : An Approach to Achieve AI</string>
-    <string name="it_grant_3">Machine Learning : An Approach to Achieve AI</string>
-    <string name="it_grant_4">Workshop on NPTEL</string>
-    <string name="it_grant_5">Role of Women in Professional Life</string>
-    <string name="it_grant_6">Book Location using RFID (Project Development)</string>
-    <string name="it_grant_7">Automatic Invoice Generator Trolley (Project Development)</string>
-    <string name="it_grant_8">Intranet-based Ebook Search Engine (Project Development)</string>
-    <string name="it_grant_9">Home Automation using Raspberry Pi (Project Development)</string>
-    <string name="it_grant_10">Infrastructure setup for A-View Classroom Project (Completed)</string>
-    <string name="it_grant_11">Design of Algorithms</string>
-    <string name="it_grant_12">Security issues in IoT software</string>
-    <string name="it_grant_13">Aakash-2 Project (Completed)</string>
-    <string name="it_grant_14">Simulation of Wired &amp; Wireless Computer Network Workshop</string>
-    <string name="it_grant_15">Research Methodology in Science &amp; Engineering Workshop</string>
-    <string name="it_grant_16">QoS in Wired &amp; Wireless Networks Workshop</string>
-    <string name="it_grant_17">Computer Networking Workshop (30/06/2014 to 05/07/2014)</string>
-    <string name="it_grant_18">Computer Programming Workshop (16/06/2014 to 21/06/2014)</string>
-    <string name="it_grant_19">ESDM Workshop</string>
-    <string name="it_grant_20">Adavance Computing &amp; Big Data Workshop</string>
-    <string name="it_grant_21">Database Management System Workshop (21/05/2013 to 31/05/2013)</string>
+    <string name="it_consultancy_information">Consultancy Information</string>
+    <string name="it_grants_information">Grants Received</string>
 
-    <string name="it_detail_grant_1"> <b>Date : </b>21st Jan, 2018\n
+    <string name="it_detail_grants_information"><b><u>Research Opportunites in IoT</u>\nDate : </b>21st Jan, 2018\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Amit Nayak and Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 50,000</string>
-
-    <string name="it_detail_grant_2"> <b>Date : </b>Dec, 2017\n
+    <b>Amount Received : </b>Rs. 50,000\n\n
+        <b><u>Machine Learning : An Approach to Achieve AI</u>\nDate : </b>Dec, 2017\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 40,000</string>
-
-    <string name="it_detail_grant_3"> <b>Date : </b>Dec, 2017\n
+    <b>Amount Received : </b>Rs. 40,000\n\n
+        <b><u>Machine Learning : An Approach to Achieve AI</u>\nDate : </b>Dec, 2017\n
     <b>Organization : </b>ACM\n
     <b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 10,000</string>
-
-    <string name="it_detail_grant_4"> <b>Date : </b>8th April, 2017\n
+    <b>Amount Received : </b>Rs. 10,000\n\n
+        <b><u>Workshop on NPTEL</u>\nDate : </b>8th April, 2017\n
     <b>Organization : </b>NPTEL Chapter\n
     <b>Faculty : </b>Prof. Nirav Bhatt\n
-    <b>Amount Received : </b>Rs. 92,500</string>
-
-    <string name="it_detail_grant_5"> <b>Date : </b>11th Feb, 2017\n
+    <b>Amount Received : </b>Rs. 92,500\n\n
+        <b><u>Role of Women in Professional Life</u>\nDate : </b>11th Feb, 2017\n
     <b>Organization : </b>ACM\n
     <b>Faculty : </b>Prof. Parth Shah, Prof. Purvi Prajapati and Prof. Sonal Rami \n
-    <b>Amount Received : </b>Rs. 9,037</string>
-
-    <string name="it_detail_grant_6"> <b>Date : </b>15th Dec, 2015\n
+    <b>Amount Received : </b>Rs. 9,037\n\n
+        <b><u>Book Location using RFID (Project Development)</u>\nDate : </b>15th Dec, 2015\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 15,900</string>
-
-    <string name="it_detail_grant_7"> <b>Date : </b>15th Dec, 2015\n
+    <b>Amount Received : </b>Rs. 15,900\n\n
+        <b><u>Automatic Invoice Generator Trolley (Project Development)</u>\nDate :</b>15th Dec, 2015\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Pinal Shah\n
-    <b>Amount Received : </b>Rs. 17,700</string>
-
-    <string name="it_detail_grant_8"> <b>Date : </b>15th Dec, 2015\n
+    <b>Amount Received : </b>Rs. 17,700\n\n
+        <b><u>Intranet-based Ebook Search Engine (Project Development)</u>\nDate :</b>15th Dec, 2015\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Hemant Yadav\n
-    <b>Amount Received : </b>Rs. 10,500</string>
-
-    <string name="it_detail_grant_9"> <b>Date : </b>15th Dec, 2015\n
+    <b>Amount Received : </b>Rs. 10,500\n\n
+        <b><u>Home Automation using Raspberry Pi (Project Development)</u>\nDate :</b>15th Dec, 2015\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Ravi Patel\n
-    <b>Amount Received : </b>Rs. 23,400</string>
-
-    <string name="it_detail_grant_10"> <b>Date : </b>4th Sept, 2015\n
+    <b>Amount Received : </b>Rs. 23,400\n\n
+        <b><u>Infrastructure setup for A-View Classroom Project (Completed)</u>\nDate :</b>4th Sept, 2015\n
     <b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay\n
     <b>Faculty : </b>Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 2,80,000</string>
-
-    <string name="it_detail_grant_11"> <b>Date : </b>30th May, 2015\n
+    <b>Amount Received : </b>Rs. 2,80,000\n\n
+        <b><u>Design of Algorithms</u>\nDate :</b>30th May, 2015\n
     <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Kharagpur\n
     <b>Faculty : </b>Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 30,000</string>
-
-    <string name="it_detail_grant_12"> <b>Date : </b>31th Mar, 2015\n
+    <b>Amount Received : </b>Rs. 30,000\n\n
+        <b><u>Security issues in IoT software</u>\nDate :</b>31th Mar, 2015\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 30,000</string>
-
-    <string name="it_detail_grant_13"> <b>Date : </b>4th Nov, 2014\n
+    <b>Amount Received : </b>Rs. 30,000\n\n
+        <b><u>Aakash-2 Project (Completed)</u>\nDate :</b>4th Nov, 2014\n
     <b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay\n
     <b>Faculty : </b>Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 1,00,000</string>
-
-    <string name="it_detail_grant_14"> <b>Date : </b>7th Oct, 2014\n
+    <b>Amount Received : </b>Rs. 1,00,000\n\n
+        <b><u>Simulation of Wired &amp; Wireless Computer Network Workshop</u>\nDate :</b>7th Oct, 2014\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 30,000</string>
-
-    <string name="it_detail_grant_15"> <b>Date : </b>7th Oct, 2014\n
+    <b>Amount Received : </b>Rs. 30,000\n\n
+        <b><u>Research Methodology in Science &amp; Engineering Workshop</u>\nDate :</b>7th Oct, 2014\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Amit Thakkar\n
-    <b>Amount Received : </b>Rs. 15,000</string>
-
-    <string name="it_detail_grant_16"> <b>Date : </b>7th Oct, 2014\n
+    <b>Amount Received : </b>Rs. 15,000\n\n
+        <b><u>QoS in Wired &amp; Wireless Networks Workshop</u>\nDate :</b>7th Oct, 2014\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Purvi Prajapati\n
-    <b>Amount Received : </b>Rs. 15,000</string>
-
-    <string name="it_detail_grant_17"> <b>Date : </b>4th Jul, 2014\n
+    <b>Amount Received : </b>Rs. 15,000\n\n
+        <b><u>Computer Networking Workshop (30/06/2014 to 05/07/2014)</u>\nDate :</b>4th Jul, 2014\n
     <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
     <b>Faculty : </b>Prof. Prof. Ayesha Shaikh &amp; Prof. Amit Nayak\n
-    <b>Amount Received : </b>Rs. 62,810</string>
-
-    <string name="it_detail_grant_18"> <b>Date : </b>14th Jun, 2014\n
+    <b>Amount Received : </b>Rs. 62,810\n\n
+        <b><u>Computer Programming Workshop (16/06/2014 to 21/06/2014)</u>\nDate :</b>14th Jun, 2014\n
     <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
     <b>Faculty : </b>Prof. Ayesha Shaikh &amp; Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 84,885</string>
-
-    <string name="it_detail_grant_19"> <b>Date : </b>9th May, 2014\n
+    <b>Amount Received : </b>Rs. 84,885\n\n
+        <b><u>ESDM Workshop</u>\nDate :</b>9th May, 2014\n
     <b>Organization : </b>CSI\n
     <b>Faculty : </b>Prof. Parth Shah \n
-    <b>Amount Received : </b>Rs. 24,000</string>
-
-    <string name="it_detail_grant_20"> <b>Date : </b>8th Nov, 2013\n
+    <b>Amount Received : </b>Rs. 24,000\n\n
+        <b><u>Adavance Computing &amp; Big Data Workshop</u>\nDate :</b>8th Nov, 2013\n
     <b>Organization : </b>GUJCOST\n
     <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 35,000</string>
-
-    <string name="it_detail_grant_21"> <b>Date : </b>5th Jun, 2013\n
+    <b>Amount Received : </b>Rs. 35,000\n\n
+        <b><u>Database Management System Workshop (21/05/2013 to 31/05/2013)</u>\nDate :</b>5th Jun, 2013\n
     <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
     <b>Faculty : </b>Prof. Ayesha Shaikh\n
     <b>Amount Received : </b>Rs. 1,56,780</string>
@@ -248,5 +198,14 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
         \nArea of Interest: Networking, Database Server Architecture, Enterprise Application Development
         \nEmail: parthshah.ce@charusat.ac.in
         \nExt. No. 5131</string>
+
+    <string name="it_maps">Maps</string>
+    <string name="it_address"><b>Department of Information Technology</b>\n
+        Chandubhai S Patel Institute of Technology(CSPIT)\n
+        Charotar University of Science and Technology, CHARUSAT Campus, Changa\n
+        Taluka: Petlad, Dist: Anand\n
+        Gujarat (India) 388 421\n
+        P: 02697-265131\n
+        E: info@charusat.ac.in </string>
 
 </resources>

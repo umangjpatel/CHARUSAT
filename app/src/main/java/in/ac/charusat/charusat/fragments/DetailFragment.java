@@ -54,9 +54,15 @@ public class DetailFragment extends Fragment {
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
                     mExpandableView.addView(new ImageOnlyInfoView(getActivity(), detail));
                     break;
-                case Detail.TABLE_VIEW_TYPE:
+                case Detail.TWO_IMAGES_TYPE:
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
-                    mExpandableView.addView(new TableInfoView(getActivity(), detail));
+                    mExpandableView.addView(new TwoImageInfoView(getActivity(), detail));
+                    break;
+                case Detail.DIRECT_TEXT_TYPE:
+                    mExpandableView.addView(new DirectTextView(getActivity(), detail));
+                    break;
+                case Detail.MAP_ADDRESS_TYPE:
+                    mExpandableView.addView(new MapAddressView(getActivity(), detail));
             }
         }
 

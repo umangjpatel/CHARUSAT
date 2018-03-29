@@ -40,21 +40,21 @@ public class DeptListLab {
                     break;
                 case 2:
                     //TODO : Add placement graph and table image drawable resource ID below
-                    details.add(new Detail(Detail.TWO_IMAGES_TYPE, R.string.placement_heading_label, R.drawable.charusat_banner, R.drawable.acm_banner, true));
+                    details.add(new Detail(Detail.TWO_IMAGES_TYPE, R.string.placement_heading_label, R.drawable.placementgraph, R.drawable.placement_table, true));
                     //TODO : Add higher studies stats table image drawable resource ID below
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.acm_banner, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.consultancy_table, true));
                     break;
                 case 3:
                     //TODO : Add new Sophos Lab Image
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_sophos, R.string.it_resource_sophos, R.drawable.resource_1));
+                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_sophos, R.string.it_resource_sophos, R.drawable.sophoslab));
                     //TODO : Add new VR Lab Image
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_vr, R.string.it_resource_vr, R.drawable.resource_2));
+                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_vr, R.string.it_resource_vr, R.drawable.vrlab));
                     //TODO : Add new Pearson Vue Exam Centre Image
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_pearson, R.string.it_resource_pearson, R.drawable.resource_2));
+                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_pearson, R.string.it_resource_pearson, R.drawable.pearsonlab));
                     //TODO : Add new Mac Lab Image
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_labs, R.string.it_resource_labs, R.drawable.resource_1));
+                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_labs, R.string.it_resource_labs, R.drawable.maclab));
                     //TODO : Add new MM Hall image
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_mm_hall, R.string.it_resource_mm_hall, R.drawable.resource_3));
+                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_mm_hall, R.string.it_resource_mm_hall, R.drawable.multimedia));
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_internet_lab, R.string.it_resource_internet_lab, R.drawable.resource_4));
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_server_room, R.string.it_resource_server_room, R.drawable.resource_5));
                     break;
@@ -63,7 +63,7 @@ public class DeptListLab {
                     break;
                 case 5:
                     //TODO : Add Publication Summary table image
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_publications, R.drawable.acm_banner, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_publications, R.drawable.ipr_table, true));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_book_publication, R.string.it_detail_book_publication));
                     break;
                 case 6:
@@ -109,7 +109,7 @@ public class DeptListLab {
                     break;
                 case 11:
                     //TODO : Add Maps image view
-                    details.add(new Detail(Detail.MAP_ADDRESS_TYPE, 0, R.string.it_address, R.drawable.acm_banner));
+                    details.add(new Detail(Detail.MAP_ADDRESS_TYPE, 0, R.string.it_address, R.drawable.caharusat_map));
                     break;
                 default:
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.about_us, R.string.it_about_dept));

@@ -12,7 +12,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +36,7 @@ public class InfoListFragment extends Fragment {
     private InfoAdapter mInfoAdapter;
     private String mDeptName;
 
-    private class InfoHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+    private class InfoHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         private AppCompatImageView mInfoImageView;
         private AppCompatTextView mInfoTitleTextView;
@@ -112,16 +111,11 @@ public class InfoListFragment extends Fragment {
         //Fetches dept name from HomeFragment spinner view.
         mDeptName = getArguments().getString(ARG_DEPT_NAME);
 
-        //TODO : To be removed after successful testing..Success
-        Toast.makeText(getActivity(), mDeptName, Toast.LENGTH_SHORT).show();
-
         //Loading categories list data like about, how to reach, etc.
         mInfoList = InfoListLab.getInstance().getInfoLists();
 
         //Loading department items arraylist(0,1,2...) of arraylist of details(detail, detail)
         mDeptList = DeptListLab.getInstance().getDeptList(mDeptName);
-
-        Toast.makeText(getActivity(), "List loaded successfully", Toast.LENGTH_SHORT).show();
 
         mInfoRecyclerView = view.findViewById(R.id.info_list_recyclerView);
         mInfoRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));

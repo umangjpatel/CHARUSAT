@@ -34,12 +34,12 @@ public class DeptListLab {
 
             switch (i) {
                 case 1:
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_btech_admission_stats, R.drawable.btech_admission, true));
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_mtech_admission_stats, R.drawable.mtech_admission, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_btech_admission_stats, R.drawable.new_btech_admission, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_mtech_admission_stats, R.drawable.new_mtech_admission, true));
                     break;
                 case 2:
                     details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.placement_heading_label,  R.drawable.placements, true));
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.higherstudies, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.new_higher_studies, true));
                     break;
                 case 3:
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_sophos, R.string.it_resource_sophos, R.drawable.sophoslab));

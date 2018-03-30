@@ -11,7 +11,7 @@
         android:layout_height="220dp"
         android:layout_margin="8dp"
         android:scaleType="centerInside"
-        android:src="@drawable/resource_1" />
+        tools:srcCompat="@drawable/resource_1" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/detail_image_content_textView"

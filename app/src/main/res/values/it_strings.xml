@@ -199,6 +199,196 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
         \nEmail: parthshah.ce@charusat.ac.in
         \nExt. No. 5131</string>
 
+    <string name="it_amit_thakkar">Dr. Amit Thakkar</string>
+    <string name="it_detail_amit_thakkar">Associate Professor
+    \nB.E.(I.T.), M.E.(C.E.), Ph.D.
+    \nArea of Interest: Data Mining, Data Compression, Cryptography
+    \nEmail: amitthakkar.it@charusat.ac.in
+    \nExt.No. 5122</string>
+
+    <string name="it_bimal_patel">Prof. Bimal Patel</string>
+    <string name="it_detail_bimal_patel">Assistant Professor
+    \nB.E.(I.T.), M.E.(I.T.) Pursuing Ph.D
+    \nArea of Interest: Database Management, Computer Network, Software Engineering, Data structure and algorithms
+    \nEmail: bimalpatel.it@charusat.ac.in
+    \nExt.No. 5123</string>
+
+    <string name="it_purvi_prajapati">Prof. Purvi Prajapati</string>
+    <string name="it_detail_purvi_prajapati">Assistant Professor
+    \nB.E.(I.T.), M.Tech(C.E.) Pursuing Ph.D
+    \nArea of Interest: Data Mining, Data Structure and Algorithms, Computer Networking, Compiler construction
+    \nEmail: purviprajapati.it@charusat.ac.in
+    \nExt.No. 5126</string>
+
+    <string name="it_amit_nayak">Prof. Amit Nayak</string>
+    <string name="it_detail_amit_nayak">Assistant Professor
+    \nB.E.(I.T.), M.Tech.(C.E.),Pursuing Ph.D.
+    \nArea of Interest: Computer Networks, Cloud Computing
+    \nEmail: amitnayak.it@charusat.ac.in
+    \nExt.No. 5123</string>
+
+    <string name="it_nirav_bhatt">Prof. Nirav Bhatt</string>
+    <string name="it_detail_nirav_bhatt">Assistant Professor
+    \nB.E.(I.T.), M.E.(C.E.) Pursuing Ph.D
+    \nArea of Interest: Data Warehouse and Mining, Database Management System, Compiler Construction
+    \nEmail: niravbhatt.it@charusat.ac.in
+    \nExt.No. 5126</string>
+
+    <string name="it_hardik_jaiswal">Prof. Hardik Jaiswal</string>
+    <string name="it_detail_hardik_jaiswal">Assistant Professor
+    \nB.E.(I.T.), M.Tech.(C.E.) Pursuing Ph.D
+    \nArea of Interest: C, C++, Image Processing, Robotics
+    \nEmail: hardikjaiswal.it@charusat.ac.in
+    \nExt.No. 5119</string>
+
+    <string name="it_hemant_yadav">Prof. Hemant Yadav</string>
+    <string name="it_detail_hemant_yadav">Assistant Professor
+    \nB.E.(I.T.), M.E.(I.T.)
+    \nArea of Interest: Web Technologies,Service Oriented Architecture,Internet Of Things
+    \nEmail: hemantyadav.it@charusat.ac.in
+    \nExt.No. 5118</string>
+
+    <string name="it_jaimin_chavda">Prof. Jaimin Chavda</string>
+    <string name="it_detail_jaimin_chavda">Assistant Professor
+    \nB.E.(I.T.), M.Tech(C.S.E.)
+    \nArea of Interest: DIP, DSP, Data Compression
+    \nEmail: jaiminchavda.it@charusat.ac.in
+    \nExt.No. 5135</string>
+
+    <string name="it_ayesha_shaikh">Prof. Ayesha Shaikh</string>
+    <string name="it_detail_ayesha_shaikh">Assistant Professor
+    \nB.E.(I.T.), M.E.(I.T.) Pursuing Ph.D
+    \nArea of Interest: Data Mining, Operating System, Object oriented concepts, Cryptography and network Security, DBMS
+    \nEmail: ayeshashaikh.it@charusat.ac.in
+    \nExt.No. 5126</string>
+
+    <string name="it_mrudang_pandya">Prof. Mrudang Pandya</string>
+    <string name="it_detail_mrudang_pandya">Assistant Professor
+    \nB.E.(I.T.), M.Tech(I.T.), Pursuing Ph.D.
+    \nArea of Interest: Data Mining, Artificial Intelligence, Web Mining , Soft Computing, Software Engineering
+    \nEmail: mrudangpandya.it@charusat.ac.in
+    \nExt.No. 5117</string>
+
+    <string name="it_jalpesh_vasa">Prof. Jalpesh Vasa</string>
+    <string name="it_detail_jalpesh_vasa">Assistant Professor
+    \nB.E.(C.E.), M.Tech(I.T.),Pursuing Ph.D.
+    \nArea of Interest: Privacy in data mining, Java, Computer Network, Java, Advanced Java, Android 
+    \nEmail: jalpeshvasa.it@charusat.ac.in
+    \nExt.No. 5118</string>
+
+    <string name="it_pinal_shah">Prof. Pinal Shah</string>
+    <string name="it_detail_pinal_shah">Assistant Professor
+    \nB.E.(C.E.), M.E.(I.T.),Pursuing Ph.D.
+    \nArea of Interest: Image Processing, Web Technologies,Java, Advanced Java, Mobile Computing
+    \nEmail: pinalshah.it@charusat.ac.in
+    \nExt.No. 5117</string>
+
+    <string name="it_ravi_patel">Prof. Ravi Patel</string>
+    <string name="it_detail_ravi_patel">Assistant Professor
+    \nB.E.(I.T.), M.Tech(C.E.)
+    \nArea of Interest: Web Technologies, Networks, E-Commerce
+    \nEmail: ravipatel.it@charusat.ac.in
+    \nExt.No. 5118</string>
+
+    <string name="it_priyanka_patel">Prof. Priyanka Patel</string>
+    <string name="it_detail_priyanka_patel">Assistant Professor
+    \nB.E.(I.T.), M.Tech(C.E.),Pursuing Ph.D.
+    \nArea of Interest: C Programming, computer network, Computer Vision &amp; Image processing
+    \nEmail: priyankapatel.it@charusat.ac.in
+    \nExt.No. 5291</string>
+
+    <string name="it_sanket_suthar">Prof. Sanket Suthar</string>
+    <string name="it_detail_sanket_suthar">Assistant Professor
+    \nB.E.(I.T.), M.Tech(I.T.)Pursuing Ph.D
+    \nArea of Interest: Data Structure, Computer Networking, Image Processing, Operation Research
+    \nEmail: sanketsuthar.it@charusat.ac.in
+    \nExt.No. 5120</string>
+
+    <string name="it_pritesh_prajapati">Prof. Pritesh Prajapati</string>
+    <string name="it_detail_pritesh_prajapati">Assistant Professor
+    \nB.E.(I.T.),M.Tech(I.T.)(Gold Medal) 
+    \nArea of Interest: Cryptography &amp; Network Security, Information Security, Ethical Hacking,Cyber Security,Data Compression,Hadoop, Wireless Communication Mobile Computing
+    \nEmail: priteshprajapati.it@charusat.ac.in
+    \nExt.No. 5123</string>
+
+    <string name="it_nehal_patel">Prof. Nehal Patel</string>
+    <string name="it_detail_nehal_patel">Assistant Professor
+    \nB.E.(I.T.),M.Tech(I.T.) 
+    \nArea of Interest: Data Mining,Software engineering, Cryptography and network security, Web Technologies, C, Core java
+    \nEmail: nehalpatel.it@charusat.ac.in
+    \nExt.No. 5133</string>
+
+    <string name="it_kamlesh_makwana">Prof. Kamlesh Makwana</string>
+    <string name="it_detail_kamlesh_makwana">Assistant Professor
+    \nB.E.(C.E.),M.Tech(I.T.) 
+    \nArea of Interest: Data Structures, Data Mining, Operating Systems,.Net, Cryptography &amp; Network Security, C, Core JAVA
+    \nEmail: kamleshmakvana.it@charusat.ac.in
+    \nExt.No. 5119</string>
+
+    <string name="it_chandni_shah">Prof. Chandni Shah</string>
+    <string name="it_detail_chandni_shah">Assistant Professor
+    \nB.E.(I.T.),M.E.(C.E.)
+    \nArea of Interest: Data mining, Parallel Computing, Operating System, Distributed Systems
+    \nEmail: chandnishah.it@charusat.ac.in
+    \nExt.No. 5122</string>
+
+    <string name="it_sagar_patel">Prof. Sagar Patel</string>
+    <string name="it_detail_sagar_patel">Assistant Professor
+    \nB.E.(I.T.), M.Tech(I.T.)
+    \nArea of Interest: C programing, Programing language(PHP,Java), Web Technologies, Mobile Application Development
+    \nEmail: sagarpatel.it@charusat.ac.in
+    \nExt.No. 5120</string>
+
+    <string name="it_sonal_rami">Prof. Sonal Rami</string>
+    <string name="it_detail_sonal_rami">Assistant Professor
+    \nB.E.(I.T.), M.E(C.S.E)
+    \nArea of Interest: Data Mining, Operating System, Artificial Intelligence, Design &amp; Analysis of Algorithm,Data Structure
+    \nEmail: sonalrami.it@charusat.ac.in
+    \nExt.No. 5126</string>
+
+    <string name="it_henish_shah">Prof. Henish Shah</string>
+    <string name="it_detail_henish_shah">Assistant Professor
+    \nB.E.(I.T.), M.Tech(C.S.E.)
+    \nArea of Interest: Operating System, Data Structure and Algorithms, Wireless sensor Network, Parallel computing , Advance computing. 
+    \nEmail: henishshah.it@charusat.ac.in
+    \nExt.No. 5122</string>
+
+    <string name="it_amit_parmar">Prof. Amit Parmar</string>
+    <string name="it_detail_amit_parmar">Assistant Professor
+    \nB.E.(I.T.), M.Tech(C.S.E.)
+    \nArea of Interest: Operating System, Data Structure and Algorithms, Wireless sensor Network, Theory of Computation.
+    \nEmail: amitparmar.it@charusat.ac.in
+    \nExt.No. 5122</string>
+
+    <string name="it_harsh_patel">Prof. Harsh Patel</string>
+    <string name="it_detail_harsh_patel">Assistant Professor
+    \nB.E.(C.E), M.E.(I.T.)
+    \nArea of Interest: ASP.NET,Data Structure, Web Technology, Core Java,C,CPP
+    \nEmail: harshpatel.it@charusat.ac.in
+    \nExt.No. 5122</string>
+
+    <string name="it_sandip_patel">Prof. Sandip Patel</string>
+    <string name="it_detail_sandip_patel">Assistant Professor
+    \nB.E.(I.T.), M.Tech(C.E.)Pursuing Ph.D
+    \nArea of Interest: C, Computer Network, Cloud Computing.
+    \nEmail: sandippatel.it@charusat.ac.in
+    \nExt.No. 5120</string>
+
+    <string name="it_vishwa_vala">Prof. Vishwakumari Vala</string>
+    <string name="it_detail_vishwa_vala">Assistant Professor
+    \nB.E.(ICT), M.Tech(I.T.) 
+    \nArea of Interest: C, Data Structure and Algorithms,Image Processing, Data Mining, Computer Network.
+    \nEmail: vishwavala.it@charusat.ac.in
+    \nExt.No. 5133</string>
+
+    <string name="it_jay_patel">Prof. Jay Patel</string>
+    <string name="it_detail_jay_patel">Assistant Professor
+    B.E.(I.T.), M.Tech.(I.T.)
+    \nArea of Interest: Data Mining, Semantic Web, Soft Computing, Web/Mobile Application Development.
+    \nEmail: jaypatel.it@charusat.ac.in
+    \nExt.No. 5119</string>
+
+
     <string name="it_maps">Maps</string>
     <string name="it_address"><b>Department of Information Technology</b>\n
         Chandubhai S Patel Institute of Technology(CSPIT)\n

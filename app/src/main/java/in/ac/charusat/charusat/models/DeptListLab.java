@@ -106,6 +106,34 @@ public class DeptListLab {
                     break;
                 case 10:
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_hod, R.string.it_detail_hod));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_amit_thakkar, R.string.it_detail_amit_thakkar));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_bimal_patel, R.string.it_detail_bimal_patel));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_purvi_prajapati, R.string.it_detail_purvi_prajapati));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_amit_nayak, R.string.it_detail_amit_nayak));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_nirav_bhatt, R.string.it_detail_nirav_bhatt));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_hardik_jaiswal, R.string.it_detail_hardik_jaiswal));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_hemant_yadav, R.string.it_detail_hemant_yadav));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_jaimin_chavda, R.string.it_detail_jaimin_chavda));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_ayesha_shaikh, R.string.it_detail_ayesha_shaikh));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_mrudang_pandya, R.string.it_detail_mrudang_pandya));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_jalpesh_vasa, R.string.it_detail_jalpesh_vasa));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_pinal_shah, R.string.it_detail_pinal_shah));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_ravi_patel, R.string.it_detail_ravi_patel));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_priyanka_patel, R.string.it_detail_priyanka_patel));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_sanket_suthar, R.string.it_detail_sanket_suthar));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_pritesh_prajapati, R.string.it_detail_pritesh_prajapati));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_nehal_patel, R.string.it_detail_nehal_patel));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_kamlesh_makwana, R.string.it_detail_kamlesh_makwana));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_chandni_shah, R.string.it_detail_chandni_shah));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_sagar_patel, R.string.it_detail_sagar_patel));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_sonal_rami, R.string.it_detail_sonal_rami));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_henish_shah, R.string.it_detail_henish_shah));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_amit_parmar, R.string.it_detail_amit_parmar));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_harsh_patel, R.string.it_detail_harsh_patel));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_sandip_patel, R.string.it_detail_sandip_patel));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_vishwa_vala, R.string.it_detail_vishwa_vala));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_jay_patel, R.string.it_detail_jay_patel));
+
                     break;
                 case 11:
                     //TODO : Add Maps image view

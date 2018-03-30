@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/detail_only_imageView"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="16dp"
+    android:layout_height="220dp"
+    android:layout_margin="8dp"
+    android:scaleType="centerInside"
     tools:srcCompat="@drawable/acm_banner" />

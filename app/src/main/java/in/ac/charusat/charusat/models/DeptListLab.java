@@ -96,7 +96,7 @@ public class DeptListLab {
                     break;
                 case 8:
                     //TODO : Add Grants table image here
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_consultancy_information, R.drawable.acm_banner, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_consultancy_information, R.drawable.consultancy_table, true));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_grants_information, R.string.it_detail_grants_information));
                     break;
                 case 9:

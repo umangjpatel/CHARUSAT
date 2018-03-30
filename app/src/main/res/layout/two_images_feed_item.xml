@@ -3,19 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
     android:orientation="vertical">
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/detail_first_imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginTop="8dp"
         tools:srcCompat="@drawable/acm_banner" />
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/detail_second_imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
         tools:srcCompat="@drawable/acm_banner" />
 
 </android.support.v7.widget.LinearLayoutCompat>

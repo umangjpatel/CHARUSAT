@@ -34,26 +34,18 @@ public class DeptListLab {
 
             switch (i) {
                 case 1:
-                    //TODO : Add btech and mtech admission stats table images
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_btech_admission_stats, R.drawable.acm_banner, true));
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_mtech_admission_stats, R.drawable.acm_banner, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_btech_admission_stats, R.drawable.btech_admission, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_mtech_admission_stats, R.drawable.mtech_admission, true));
                     break;
                 case 2:
-                    //TODO : Add placement graph and table image drawable resource ID below
-                    details.add(new Detail(Detail.TWO_IMAGES_TYPE, R.string.placement_heading_label, R.drawable.placementgraph, R.drawable.placement_table, true));
-                    //TODO : Add higher studies stats table image drawable resource ID below
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.consultancy_table, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.placement_heading_label,  R.drawable.placements, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.higherstudies, true));
                     break;
                 case 3:
-                    //TODO : Add new Sophos Lab Image
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_sophos, R.string.it_resource_sophos, R.drawable.sophoslab));
-                    //TODO : Add new VR Lab Image
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_vr, R.string.it_resource_vr, R.drawable.vrlab));
-                    //TODO : Add new Pearson Vue Exam Centre Image
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_pearson, R.string.it_resource_pearson, R.drawable.pearsonlab));
-                    //TODO : Add new Mac Lab Image
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_labs, R.string.it_resource_labs, R.drawable.maclab));
-                    //TODO : Add new MM Hall image
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_mm_hall, R.string.it_resource_mm_hall, R.drawable.multimedia));
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_internet_lab, R.string.it_resource_internet_lab, R.drawable.resource_4));
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_server_room, R.string.it_resource_server_room, R.drawable.resource_5));
@@ -62,7 +54,6 @@ public class DeptListLab {
                     details.add(new Detail(Detail.DIRECT_TEXT_TYPE, 0, R.string.it_collaborations));
                     break;
                 case 5:
-                    //TODO : Add Publication Summary table image
                     details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_publications, R.drawable.ipr_table, true));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_book_publication, R.string.it_detail_book_publication));
                     break;
@@ -95,7 +86,6 @@ public class DeptListLab {
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_achievement_14, R.string.it_detail_achievement_14));
                     break;
                 case 8:
-                    //TODO : Add Grants table image here
                     details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_consultancy_information, R.drawable.consultancy_table, true));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_grants_information, R.string.it_detail_grants_information));
                     break;
@@ -136,7 +126,6 @@ public class DeptListLab {
 
                     break;
                 case 11:
-                    //TODO : Add Maps image view
                     details.add(new Detail(Detail.MAP_ADDRESS_TYPE, 0, R.string.it_address, R.drawable.caharusat_map));
                     break;
                 default:

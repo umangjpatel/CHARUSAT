@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="220dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
         tools:srcCompat="@drawable/acm_banner" />
 
     <android.support.v7.widget.AppCompatImageView
@@ -20,6 +21,7 @@
         android:layout_height="220dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
         tools:srcCompat="@drawable/acm_banner" />
 
 </android.support.v7.widget.LinearLayoutCompat>

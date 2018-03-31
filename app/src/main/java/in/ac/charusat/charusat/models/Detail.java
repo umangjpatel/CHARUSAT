@@ -10,17 +10,16 @@ import android.os.Parcelable;
 public class Detail implements Parcelable {
 
     public static final int ONLY_TEXT_TYPE = 0, IMAGE_TEXT_TYPE = 1, ONLY_IMAGE_TYPE = 2,
-            TWO_IMAGES_TYPE = 3, MAP_ADDRESS_TYPE = 4, DIRECT_TEXT_TYPE = 5, ONLY_TABLE_TYPE = 6;
+            TWO_IMAGES_TYPE = 3, MAP_ADDRESS_TYPE = 4, DIRECT_TEXT_TYPE = 5,
+            ONLY_TABLE_TYPE = 6, IMAGE_TABLE_TYPE = 7;
 
     public static final String BTECH_ADMIN = "btech", MTECH_ADMIN = "mtech", IPR = "ipr",
-        CONSULTANCY = "consult";
+            CONSULTANCY = "consult", TOP_PLACEMENT = "placments";
 
     private int mType;
     private int mHeaderResId;
     private int mContentResId;
     private int mImageResId;
-    private int mFirstImageResId;
-    private int mSecondImageResId;
     private String mTableType;
 
     public Detail(int type, int headerResId, int contentResId) {
@@ -42,11 +41,11 @@ public class Detail implements Parcelable {
         mHeaderResId = headerResId;
     }
 
-    public Detail(int type, int headerResId, int firstImageResId, int secondImageResId, boolean isTwoImages) {
+    public Detail(int type, int headerResId, int imageResId, String tableType) {
         mType = type;
         mHeaderResId = headerResId;
-        mFirstImageResId = firstImageResId;
-        mSecondImageResId = secondImageResId;
+        mImageResId = imageResId;
+        mTableType = tableType;
     }
 
     public Detail(int type, int headerResId, String tableType) {
@@ -60,8 +59,6 @@ public class Detail implements Parcelable {
         mHeaderResId = in.readInt();
         mContentResId = in.readInt();
         mImageResId = in.readInt();
-        mFirstImageResId = in.readInt();
-        mSecondImageResId = in.readInt();
         mTableType = in.readString();
     }
 
@@ -81,14 +78,6 @@ public class Detail implements Parcelable {
         return mImageResId;
     }
 
-    public int getFirstImageResId() {
-        return mFirstImageResId;
-    }
-
-    public int getSecondImageResId() {
-        return mSecondImageResId;
-    }
-
     public String getTableType() {
         return mTableType;
     }
@@ -104,8 +93,6 @@ public class Detail implements Parcelable {
         dest.writeInt(mHeaderResId);
         dest.writeInt(mContentResId);
         dest.writeInt(mImageResId);
-        dest.writeInt(mFirstImageResId);
-        dest.writeInt(mSecondImageResId);
         dest.writeString(mTableType);
     }
 

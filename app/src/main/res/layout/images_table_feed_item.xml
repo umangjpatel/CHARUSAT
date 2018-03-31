@@ -8,20 +8,25 @@
     android:orientation="vertical">
 
     <android.support.v7.widget.AppCompatImageView
-        android:id="@+id/detail_first_imageView"
+        android:id="@+id/detail_imageView"
         android:layout_width="match_parent"
         android:layout_height="220dp"
         android:layout_marginTop="8dp"
         android:scaleType="fitCenter"
         tools:srcCompat="@drawable/acm_banner" />
 
-    <android.support.v7.widget.AppCompatImageView
-        android:id="@+id/detail_second_imageView"
+    <android.support.v7.widget.AppCompatTextView
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitCenter"
-        tools:srcCompat="@drawable/acm_banner" />
+        android:layout_height="wrap_content"
+        android:background="@color/text"
+        android:text="Top Placements"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <com.levitnudi.legacytableview.LegacyTableView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/image_table_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </android.support.v7.widget.LinearLayoutCompat>

@@ -38,7 +38,7 @@ public class DeptListLab {
                     details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_mtech_admission_stats, Detail.MTECH_ADMIN));
                     break;
                 case 2:
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.placement_heading_label, R.drawable.placements, true));
+                    details.add(new Detail(Detail.IMAGE_TABLE_TYPE, R.string.placement_heading_label, R.drawable.placementgraph, Detail.TOP_PLACEMENT));
                     details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.higherstudies, true));
                     break;
                 case 3:

@@ -137,9 +137,9 @@ class TableInfoView {
                 mContentArray.add("$ 5000");
                 break;
         }
-        LegacyTableView.insertLegacyTitle(mContentArray.toArray(new String[mContentArray.size()]));
+        LegacyTableView.insertLegacyTitle(mTitleArray.toArray(new String[mTitleArray.size()]));
         //set table contents as string arrays
-        LegacyTableView.insertLegacyContent(mTitleArray.toArray(new String[mTitleArray.size()]));
+        LegacyTableView.insertLegacyContent(mContentArray.toArray(new String[mContentArray.size()]));
         legacyTableView.setTitle(LegacyTableView.readLegacyTitle());
         legacyTableView.setContent(LegacyTableView.readLegacyContent());
         legacyTableView.setTablePadding(7);

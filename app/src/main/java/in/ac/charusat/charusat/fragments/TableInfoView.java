@@ -74,9 +74,9 @@ class TableInfoView {
                 mContentArray.add("3101424");
                 mContentArray.add("2016-17");
                 mContentArray.add("3101403");
-                mContentArray.add("31010490");
+                mContentArray.add("3101490");
                 mContentArray.add("2015-16");
-                mContentArray.add("31010634");
+                mContentArray.add("3101634");
                 mContentArray.add("3101734");
                 mContentArray.add("2014-15");
                 mContentArray.add("3101375");

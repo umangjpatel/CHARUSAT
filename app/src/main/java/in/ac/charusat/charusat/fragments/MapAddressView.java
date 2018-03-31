@@ -38,6 +38,7 @@ class MapAddressView {
 
     @Resolve
     void onResolved() {
+        //TODO : Apply onclick
         mMapImageView.setImageResource(mDetail.getImageResId());
         mAddressTextView.setText(mDetail.getContentResId());
     }

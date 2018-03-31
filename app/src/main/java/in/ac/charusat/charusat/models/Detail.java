@@ -10,9 +10,18 @@ import android.os.Parcelable;
 public class Detail implements Parcelable {
 
     public static final int ONLY_TEXT_TYPE = 0, IMAGE_TEXT_TYPE = 1, ONLY_IMAGE_TYPE = 2,
-            TWO_IMAGES_TYPE = 3, MAP_ADDRESS_TYPE = 4, DIRECT_TEXT_TYPE = 5;
+            TWO_IMAGES_TYPE = 3, MAP_ADDRESS_TYPE = 4, DIRECT_TEXT_TYPE = 5, ONLY_TABLE_TYPE = 6;
 
-    private int mType, mHeaderResId, mContentResId, mImageResId, mFirstImageResId, mSecondImageResId;
+    public static final String BTECH_ADMIN = "btech", MTECH_ADMIN = "mtech", IPR = "ipr",
+        CONSULTANCY = "consult";
+
+    private int mType;
+    private int mHeaderResId;
+    private int mContentResId;
+    private int mImageResId;
+    private int mFirstImageResId;
+    private int mSecondImageResId;
+    private String mTableType;
 
     public Detail(int type, int headerResId, int contentResId) {
         mType = type;
@@ -40,6 +49,11 @@ public class Detail implements Parcelable {
         mSecondImageResId = secondImageResId;
     }
 
+    public Detail(int type, int headerResId, String tableType) {
+        mType = type;
+        mHeaderResId = headerResId;
+        mTableType = tableType;
+    }
 
     protected Detail(Parcel in) {
         mType = in.readInt();
@@ -48,19 +62,8 @@ public class Detail implements Parcelable {
         mImageResId = in.readInt();
         mFirstImageResId = in.readInt();
         mSecondImageResId = in.readInt();
+        mTableType = in.readString();
     }
-
-    public static final Creator<Detail> CREATOR = new Creator<Detail>() {
-        @Override
-        public Detail createFromParcel(Parcel in) {
-            return new Detail(in);
-        }
-
-        @Override
-        public Detail[] newArray(int size) {
-            return new Detail[size];
-        }
-    };
 
     public int getType() {
         return mType;
@@ -86,6 +89,10 @@ public class Detail implements Parcelable {
         return mSecondImageResId;
     }
 
+    public String getTableType() {
+        return mTableType;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -99,5 +106,19 @@ public class Detail implements Parcelable {
         dest.writeInt(mImageResId);
         dest.writeInt(mFirstImageResId);
         dest.writeInt(mSecondImageResId);
+        dest.writeString(mTableType);
     }
+
+    public static final Creator<Detail> CREATOR = new Creator<Detail>() {
+        @Override
+        public Detail createFromParcel(Parcel in) {
+            return new Detail(in);
+        }
+
+        @Override
+        public Detail[] newArray(int size) {
+            return new Detail[size];
+        }
+    };
+
 }

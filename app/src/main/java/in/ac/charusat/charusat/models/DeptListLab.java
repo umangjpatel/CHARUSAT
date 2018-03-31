@@ -34,11 +34,11 @@ public class DeptListLab {
 
             switch (i) {
                 case 1:
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_btech_admission_stats, R.drawable.new_btech_admission, true));
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_mtech_admission_stats, R.drawable.new_mtech_admission, true));
+                    details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_btech_admission_stats, Detail.BTECH_ADMIN));
+                    details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_mtech_admission_stats, Detail.MTECH_ADMIN));
                     break;
                 case 2:
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.placement_heading_label,  R.drawable.placements, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.placement_heading_label, R.drawable.placements, true));
                     details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.new_higher_studies, true));
                     break;
                 case 3:
@@ -54,7 +54,7 @@ public class DeptListLab {
                     details.add(new Detail(Detail.DIRECT_TEXT_TYPE, 0, R.string.it_collaborations));
                     break;
                 case 5:
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_publications, R.drawable.ipr_table, true));
+                    details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_publications, Detail.IPR));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_book_publication, R.string.it_detail_book_publication));
                     break;
                 case 6:
@@ -86,7 +86,7 @@ public class DeptListLab {
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_achievement_14, R.string.it_detail_achievement_14));
                     break;
                 case 8:
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.it_consultancy_information, R.drawable.consultancy_table, true));
+                    details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_consultancy_information, Detail.CONSULTANCY));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_grants_information, R.string.it_detail_grants_information));
                     break;
                 case 9:

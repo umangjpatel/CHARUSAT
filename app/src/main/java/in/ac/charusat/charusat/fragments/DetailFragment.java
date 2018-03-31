@@ -63,6 +63,10 @@ public class DetailFragment extends Fragment {
                     break;
                 case Detail.MAP_ADDRESS_TYPE:
                     mExpandableView.addView(new MapAddressView(getActivity(), detail));
+                    break;
+                case Detail.ONLY_TABLE_TYPE:
+                    mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
+                    mExpandableView.addView(new TableInfoView(getActivity(), detail));
             }
         }
 

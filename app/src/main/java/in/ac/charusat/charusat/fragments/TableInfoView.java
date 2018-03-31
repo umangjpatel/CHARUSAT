@@ -146,10 +146,9 @@ class TableInfoView {
         LegacyTableView.insertLegacyContent(mContentArray.toArray(new String[mContentArray.size()]));
         legacyTableView.setTitle(LegacyTableView.readLegacyTitle());
         legacyTableView.setContent(LegacyTableView.readLegacyContent());
-        legacyTableView.setTablePadding(7);
+        legacyTableView.setTablePadding(9);
         legacyTableView.setTitleTextSize(32);
         legacyTableView.setContentTextSize(28);
-        legacyTableView.setContentTextAlignment(android.view.View.TEXT_ALIGNMENT_CENTER);
         legacyTableView.build();
 
     }

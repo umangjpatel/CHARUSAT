@@ -22,62 +22,69 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <FrameLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="match_parent"
-        android:background="@drawable/homeback"
-        android:padding="8dp">
+        android:layout_height="match_parent">
 
-        <android.support.v7.widget.AppCompatImageView
-            android:id="@+id/banner_imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="16dp"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/charusat_banner" />
-        <android.support.v7.widget.CardView
-            android:id="@+id/card_view"
+        <android.support.v7.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            card_view:cardCornerRadius="16dp"
-            android:layout_margin="16dp">
+            android:background="@drawable/homeback"
+            android:orientation="vertical"
+            android:padding="8dp">
 
-            <android.support.v7.widget.LinearLayoutCompat
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/banner_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/charusat_banner" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_gravity="center"
-                >
+                android:layout_margin="16dp"
+                card_view:cardCornerRadius="16dp">
 
-                <android.support.v7.widget.AppCompatSpinner
-                    android:id="@+id/institute_spinner"
+                <android.support.v7.widget.LinearLayoutCompat
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp" />
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
 
-                <android.support.v7.widget.AppCompatSpinner
-                    android:id="@+id/dept_spinner"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16dp" />
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/institute_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp" />
 
-                <android.support.v7.widget.AppCompatButton
-                    android:id="@+id/info_list_button"
-                    style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:background="@drawable/rounded_button"
-                    android:text="@string/btnOK"
-                    android:textColor="@android:color/white" />
-            </android.support.v7.widget.LinearLayoutCompat>
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/dept_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp" />
 
-        </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/info_list_button"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/rounded_button"
+                        android:text="@string/btnOK"
+                        android:textColor="@android:color/white" />
+                </android.support.v7.widget.LinearLayoutCompat>
 
-    </android.support.v7.widget.LinearLayoutCompat>
+            </android.support.v7.widget.CardView>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </FrameLayout>
 
 
 </android.support.v7.widget.LinearLayoutCompat>

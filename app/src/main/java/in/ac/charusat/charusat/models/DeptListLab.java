@@ -39,7 +39,7 @@ public class DeptListLab {
                     break;
                 case 2:
                     details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.placement_heading_label, R.drawable.placements, true));
-                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.new_higher_studies, true));
+                    details.add(new Detail(Detail.ONLY_IMAGE_TYPE, R.string.higher_studies_heading_label, R.drawable.higherstudies, true));
                     break;
                 case 3:
                     details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_sophos, R.string.it_resource_sophos, R.drawable.sophoslab));

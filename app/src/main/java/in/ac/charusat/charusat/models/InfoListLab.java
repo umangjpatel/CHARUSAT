@@ -25,7 +25,7 @@ public class InfoListLab {
 
     private void addInfoData() {
         mInfoLists = new ArrayList<>();
-        mInfoLists.add(new InfoList(R.drawable.ic_university, R.string.about_institute));
+        mInfoLists.add(new InfoList(R.drawable.ic_university, R.string.it_about_institute));
         mInfoLists.add(new InfoList(R.drawable.ic_test, R.string.admission_stats));
         mInfoLists.add(new InfoList(R.drawable.ic_graduation, R.string.placement));
         mInfoLists.add(new InfoList(R.drawable.ic_blackboard, R.string.resources));

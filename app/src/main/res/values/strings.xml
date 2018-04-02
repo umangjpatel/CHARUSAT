@@ -22,7 +22,7 @@
         <item>EE</item>
     </string-array>
 
-    <string name="it_about_institute">IT Department</string>
+    <string name="it_about_institute">About Department</string>
     <string name="admission_stats">Admission</string>
     <string name="placement">Placement &amp; Higher Study</string>
     <string name="resources">Resources</string>
@@ -42,5 +42,8 @@
     <string name="vision">Vision</string>
     <string name="mission">Mission</string>
     <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

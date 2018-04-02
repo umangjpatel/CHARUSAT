@@ -1,46 +1,14 @@
 package in.ac.charusat.charusat.activities;
 
-import android.annotation.TargetApi;
-import android.content.Intent;
-import android.os.Build;
-import com.daimajia.androidanimations.library.Techniques;
-import com.viksaa.sssplash.lib.activity.AwesomeSplash;
-import com.viksaa.sssplash.lib.cnst.Flags;
-import com.viksaa.sssplash.lib.model.ConfigSplash;
+import android.support.v4.app.Fragment;
 
-import in.ac.charusat.charusat.R;
+import in.ac.charusat.charusat.fragments.SplashFragment;
 
-public class SplashActivity extends AwesomeSplash {
-
+public class SplashActivity extends SingleFragmentActivity {
 
     @Override
-    public void initSplash(ConfigSplash configSplash) {
-
-
-        //Customize Circular Reveal
-        configSplash.setBackgroundColor(R.color.splash_background); //any color you want form colors.xml
-        configSplash.setAnimCircularRevealDuration(900); //int ms
-//        configSplash.setRevealFlagX(Flags.REVEAL_LEFT);  //or Flags.REVEAL_LEFT
-//        configSplash.setRevealFlagY(Flags.REVEAL_TOP); //or Flags.REVEAL_TOP
-        configSplash.setAnimCircularRevealDuration(Flags.WITH_LOGO);
-
-        //Customize Logo
-        configSplash.setLogoSplash(R.drawable.splash);   //or any other drawable
-        configSplash.setAnimLogoSplashDuration(1150); //int ms
-        configSplash.setAnimLogoSplashTechnique(Techniques.ZoomIn); //choose one form Techniques (ref: https://github.com/daimajia/AndroidViewAnimations)
-
-        configSplash.setTitleSplash(" ");
-    }
-
-
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    @Override
-    public void animationsFinished() {
-        Intent mainIntent = new Intent(this, HomeActivity.class);
-        startActivity(mainIntent);
-        finish();
-        overridePendingTransition(R.anim.downtoup, R.anim.downtoup);
-
+    protected Fragment getFragment() {
+        return new SplashFragment();
     }
 }
 

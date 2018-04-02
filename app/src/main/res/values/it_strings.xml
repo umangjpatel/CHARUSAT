@@ -97,90 +97,90 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
     <string name="it_consultancy_information">Consultancy Information</string>
     <string name="it_grants_information">Grants Received</string>
 
-    <string name="it_detail_grants_information"><b><u>Research Opportunites in IoT</u>\nDate : </b>21st Jan, 2018\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Amit Nayak and Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 50,000\n\n
-        <b><u>Machine Learning : An Approach to Achieve AI</u>\nDate : </b>Dec, 2017\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 40,000\n\n
-        <b><u>Machine Learning : An Approach to Achieve AI</u>\nDate : </b>Dec, 2017\n
-    <b>Organization : </b>ACM\n
-    <b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 10,000\n\n
-        <b><u>Workshop on NPTEL</u>\nDate : </b>8th April, 2017\n
-    <b>Organization : </b>NPTEL Chapter\n
-    <b>Faculty : </b>Prof. Nirav Bhatt\n
-    <b>Amount Received : </b>Rs. 92,500\n\n
-        <b><u>Role of Women in Professional Life</u>\nDate : </b>11th Feb, 2017\n
-    <b>Organization : </b>ACM\n
-    <b>Faculty : </b>Prof. Parth Shah, Prof. Purvi Prajapati and Prof. Sonal Rami \n
-    <b>Amount Received : </b>Rs. 9,037\n\n
-        <b><u>Book Location using RFID (Project Development)</u>\nDate : </b>15th Dec, 2015\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 15,900\n\n
-        <b><u>Automatic Invoice Generator Trolley (Project Development)</u>\nDate :</b>15th Dec, 2015\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Pinal Shah\n
-    <b>Amount Received : </b>Rs. 17,700\n\n
-        <b><u>Intranet-based Ebook Search Engine (Project Development)</u>\nDate :</b>15th Dec, 2015\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Hemant Yadav\n
-    <b>Amount Received : </b>Rs. 10,500\n\n
-        <b><u>Home Automation using Raspberry Pi (Project Development)</u>\nDate :</b>15th Dec, 2015\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Ravi Patel\n
-    <b>Amount Received : </b>Rs. 23,400\n\n
-        <b><u>Infrastructure setup for A-View Classroom Project (Completed)</u>\nDate :</b>4th Sept, 2015\n
-    <b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay\n
-    <b>Faculty : </b>Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 2,80,000\n\n
-        <b><u>Design of Algorithms</u>\nDate :</b>30th May, 2015\n
-    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Kharagpur\n
-    <b>Faculty : </b>Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 30,000\n\n
-        <b><u>Security issues in IoT software</u>\nDate :</b>31th Mar, 2015\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 30,000\n\n
-        <b><u>Aakash-2 Project (Completed)</u>\nDate :</b>4th Nov, 2014\n
-    <b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay\n
-    <b>Faculty : </b>Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 1,00,000\n\n
-        <b><u>Simulation of Wired &amp; Wireless Computer Network Workshop</u>\nDate :</b>7th Oct, 2014\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 30,000\n\n
-        <b><u>Research Methodology in Science &amp; Engineering Workshop</u>\nDate :</b>7th Oct, 2014\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Amit Thakkar\n
-    <b>Amount Received : </b>Rs. 15,000\n\n
-        <b><u>QoS in Wired &amp; Wireless Networks Workshop</u>\nDate :</b>7th Oct, 2014\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Purvi Prajapati\n
-    <b>Amount Received : </b>Rs. 15,000\n\n
-        <b><u>Computer Networking Workshop (30/06/2014 to 05/07/2014)</u>\nDate :</b>4th Jul, 2014\n
-    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
-    <b>Faculty : </b>Prof. Prof. Ayesha Shaikh &amp; Prof. Amit Nayak\n
-    <b>Amount Received : </b>Rs. 62,810\n\n
-        <b><u>Computer Programming Workshop (16/06/2014 to 21/06/2014)</u>\nDate :</b>14th Jun, 2014\n
-    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
-    <b>Faculty : </b>Prof. Ayesha Shaikh &amp; Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 84,885\n\n
-        <b><u>ESDM Workshop</u>\nDate :</b>9th May, 2014\n
-    <b>Organization : </b>CSI\n
-    <b>Faculty : </b>Prof. Parth Shah \n
-    <b>Amount Received : </b>Rs. 24,000\n\n
-        <b><u>Adavance Computing &amp; Big Data Workshop</u>\nDate :</b>8th Nov, 2013\n
-    <b>Organization : </b>GUJCOST\n
-    <b>Faculty : </b>Prof. Parth Shah\n
-    <b>Amount Received : </b>Rs. 35,000\n\n
-        <b><u>Database Management System Workshop (21/05/2013 to 31/05/2013)</u>\nDate :</b>5th Jun, 2013\n
-    <b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay\n
-    <b>Faculty : </b>Prof. Ayesha Shaikh\n
-    <b>Amount Received : </b>Rs. 1,56,780</string>
+    <string name="it_detail_grants_information"><b><u>Research Opportunites in IoT</u>\nDate : </b>21st Jan, 2018
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Amit Nayak and Prof. Parth Shah
+        \n<b>Amount Received : </b>Rs. 50,000
+        \n\n<b><u>Machine Learning : An Approach to Achieve AI</u>\nDate : </b>Dec, 2017
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh
+        \n<b>Amount Received : </b>Rs. 40,000
+        \n\n<b><u>Machine Learning : An Approach to Achieve AI</u>\nDate : </b>Dec, 2017
+        \n<b>Organization : </b>ACM
+        \n<b>Faculty : </b>Prof. Sonal Rami and Prof. Ayesha Shaikh
+        \n<b>Amount Received : </b>Rs. 10,000
+        \n\n<b><u>Workshop on NPTEL</u>\nDate : </b>8th April, 2017
+        \n<b>Organization : </b>NPTEL Chapter
+        \n<b>Faculty : </b>Prof. Nirav Bhatt
+        \n<b>Amount Received : </b>Rs. 92,500
+        \n\n<b><u>Role of Women in Professional Life</u>\nDate : </b>11th Feb, 2017
+        \n<b>Organization : </b>ACM
+        \n<b>Faculty : </b>Prof. Parth Shah, Prof. Purvi Prajapati and Prof. Sonal Rami
+        \n<b>Amount Received : </b>Rs. 9,037
+        \n\n<b><u>Book Location using RFID (Project Development)</u>\nDate : </b>15th Dec, 2015
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Parth Shah
+        \n<b>Amount Received : </b>Rs. 15,900
+        \n\n<b><u>Automatic Invoice Generator Trolley (Project Development)</u>\nDate :</b>15th Dec, 2015
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Pinal Shah
+        \n<b>Amount Received : </b>Rs. 17,700
+        \n\n<b><u>Intranet-based Ebook Search Engine (Project Development)</u>\nDate :</b>15th Dec, 2015
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Hemant Yadav
+        \n<b>Amount Received : </b>Rs. 10,500
+        \n\n<b><u>Home Automation using Raspberry Pi (Project Development)</u>\nDate :</b>15th Dec, 2015
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Ravi Patel
+        \n<b>Amount Received : </b>Rs. 23,400
+        \n\n<b><u>Infrastructure setup for A-View Classroom Project (Completed)</u>\nDate :</b>4th Sept, 2015
+        \n<b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay
+        \n<b>Faculty : </b>Prof. Ayesha Shaikh
+        \n<b>Amount Received : </b>Rs. 2,80,000
+        \n\n<b><u>Design of Algorithms</u>\nDate :</b>30th May, 2015
+        \n<b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Kharagpur
+        \n<b>Faculty : </b>Prof. Ayesha Shaikh
+        \n<b>Amount Received : </b>Rs. 30,000
+        \n\n<b><u>Security issues in IoT software</u>\nDate :</b>31th Mar, 2015
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Parth Shah
+        \n<b>Amount Received : </b>Rs. 30,000
+        \n\n<b><u>Aakash-2 Project (Completed)</u>\nDate :</b>4th Nov, 2014
+        \n<b>Organization : </b>Govt. of India NMEICT scheme, MHRD, IIT Bombay
+        \n<b>Faculty : </b>Prof. Ayesha Shaikh
+        \n<b>Amount Received : </b>Rs. 1,00,000
+        \n\n<b><u>Simulation of Wired &amp; Wireless Computer Network Workshop</u>\nDate :</b>7th Oct, 2014
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Parth Shah
+        \n<b>Amount Received : </b>Rs. 30,000
+        \n\n<b><u>Research Methodology in Science &amp; Engineering Workshop</u>\nDate :</b>7th Oct, 2014
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Amit Thakkar
+        \n<b>Amount Received : </b>Rs. 15,000
+        \n\n<b><u>QoS in Wired &amp; Wireless Networks Workshop</u>\nDate :</b>7th Oct, 2014
+        \n<b>Organization : </b>GUJCOST
+        <b>Faculty : </b>Prof. Purvi Prajapati
+        \n<b>Amount Received : </b>Rs. 15,000
+        \n\n<b><u>Computer Networking Workshop (30/06/2014 to 05/07/2014)</u>\nDate :</b>4th Jul, 2014
+        \n<b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay
+        \n<b>Faculty : </b>Prof. Prof. Ayesha Shaikh &amp; Prof. Amit Nayak
+        \n<b>Amount Received : </b>Rs. 62,810
+        \n\n<b><u>Computer Programming Workshop (16/06/2014 to 21/06/2014)</u>\nDate :</b>14th Jun, 2014
+        \n<b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay
+        \n<b>Faculty : </b>Prof. Ayesha Shaikh &amp; Prof. Parth Shah
+        \n<b>Amount Received : </b>Rs. 84,885
+        \n\n<b><u>ESDM Workshop</u>\nDate :</b>9th May, 2014
+        \n<b>Organization : </b>CSI
+        \n<b>Faculty : </b>Prof. Parth Shah
+        \n<b>Amount Received : </b>Rs. 24,000
+        \n\n<b><u>Adavance Computing &amp; Big Data Workshop</u>\nDate :</b>8th Nov, 2013
+        \n<b>Organization : </b>GUJCOST
+        \n<b>Faculty : </b>Prof. Parth Shah
+        \n<b>Amount Received : </b>Rs. 35,000
+        \n\n<b><u>Database Management System Workshop (21/05/2013 to 31/05/2013)</u>\nDate :</b>5th Jun, 2013
+        \n<b>Organization : </b>MHRD Sponsored ISTE Workshop under NMEICT scheme, IIT Bombay
+        \n<b>Faculty : </b>Prof. Ayesha Shaikh
+        \n<b>Amount Received : </b>Rs. 1,56,780</string>
 
 
     <string name="it_ieee">IEEE</string>

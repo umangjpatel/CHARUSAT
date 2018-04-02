@@ -122,16 +122,19 @@ class TableInfoView {
                 mContentArray.add("CELTIC System Private Ltd.");
                 mContentArray.add("Project Consultancy : I-Learn & I-Doc");
                 mContentArray.add("Rs. 15 Lakhs");
+
                 mContentArray.add("Meghdoot Steel Industries");
                 mContentArray.add("Project Consultancy");
                 mContentArray.add("Rs. 12,000/-");
+
                 mContentArray.add("Grid Scape Solutions, UK");
-                mContentArray.add("CELTIC System Private Ltd.");
                 mContentArray.add("Charge Point Simulator SOAP API Design & Web Application");
                 mContentArray.add("Rs. 30,000/-");
+
                 mContentArray.add("Nimisha International, USA");
                 mContentArray.add("Heat Transfer Analysis of Bus Duct & Analysis of AI Expansion Joint");
                 mContentArray.add("$ 5000");
+
                 mContentArray.add("Nimisha International, USA");
                 mContentArray.add("Design & Analysis of Bus Duct with Software Development");
                 mContentArray.add("$ 5000");

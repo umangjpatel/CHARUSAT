@@ -14,7 +14,6 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:layout_scrollFlags="snap"
-            app:navigationIcon="@drawable/ic_arrow_back"
             app:title="IT"
             app:titleTextColor="@android:color/white" />
 

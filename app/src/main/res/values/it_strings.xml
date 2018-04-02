@@ -390,12 +390,12 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
 
 
     <string name="it_maps">Maps</string>
-    <string name="it_address"><b>Department of Information Technology</b>\n
-        Chandubhai S Patel Institute of Technology(CSPIT)\n
-        Charotar University of Science and Technology, CHARUSAT Campus, Changa\n
-        Taluka: Petlad, Dist: Anand\n
-        Gujarat (India) 388 421\n
-        P: 02697-265131\n
-        E: info@charusat.ac.in </string>
+    <string name="it_address"><b>Department of Information Technology</b>
+        \nChandubhai S Patel Institute of Technology (CSPIT)
+        \nCharotar University of Science and Technology, CHARUSAT Campus, Changa
+        \nTaluka: Petlad, Dist: Anand
+        \nGujarat (India) 388 421
+        \nP: 02697-265131
+        \nE: info@charusat.ac.in</string>
 
 </resources>

@@ -3,7 +3,19 @@
     package="in.ac.charusat.charusat">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permissions -->
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.    READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Google MAP API key -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_charusat"
@@ -23,22 +35,16 @@
         </activity>
         <activity
             android:name=".activities.HomeActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.InfoListActivity"
-            android:screenOrientation="portrait"
             android:parentActivityName=".activities.HomeActivity"
-            />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.DetailActivity"
-            android:screenOrientation="portrait"
             android:parentActivityName=".activities.HomeActivity"
-            />
+            android:screenOrientation="portrait" />
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

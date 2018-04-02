@@ -5,16 +5,21 @@
 
     <string-array name="institutes_array">
         <item>CSPIT</item>
-        <!--<item>Pharmacy</item>-->
-        <!--<item>Physiotherapy</item>-->
-        <!--<item>Nursing</item>-->
-        <!--<item>BCA &amp; MCA</item>-->
-        <!--<item>BBA &amp; MBA</item>-->
-        <!--<item>PDPIAS</item>-->
+        <item>Pharmacy</item>
+        <item>Physiotherapy</item>
+        <item>Nursing</item>
+        <item>BCA &amp; MCA</item>
+        <item>BBA &amp; MBA</item>
+        <item>PDPIAS</item>
     </string-array>
 
     <string-array name="departments_array">
         <item>IT</item>
+        <item>ME</item>
+        <item>CE</item>
+        <item>CL</item>
+        <item>EC</item>
+        <item>EE</item>
     </string-array>
 
     <string name="it_about_institute">IT Department</string>
@@ -36,5 +41,6 @@
 
     <string name="vision">Vision</string>
     <string name="mission">Mission</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>

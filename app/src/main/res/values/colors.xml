@@ -7,5 +7,5 @@
     <color name="text">#006cb5</color>
     <color name="bg_color">#e8edf3</color>
     <color name="white">#FFFFFF</color>
-    <color name="splash_background">#e67817</color>
+    <color name="splash_background">#8b9fa8da</color>
 </resources>

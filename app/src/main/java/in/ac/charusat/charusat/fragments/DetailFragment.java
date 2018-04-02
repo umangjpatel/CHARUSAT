@@ -61,6 +61,10 @@ public class DetailFragment extends Fragment {
                 case Detail.DIRECT_TEXT_TYPE:
                     mExpandableView.addView(new DirectTextView(getActivity(), detail));
                     break;
+                case Detail.FACULTY_INFO_TYPE:
+                    mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
+                    mExpandableView.addView(new FacultyInfoView(getActivity(), detail));
+                    break;
                 case Detail.MAP_ADDRESS_TYPE:
                     mExpandableView.addView(new MapAddressView(getActivity(), detail));
                     break;

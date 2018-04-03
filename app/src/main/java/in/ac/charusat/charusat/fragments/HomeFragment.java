@@ -12,7 +12,6 @@ import android.support.v7.widget.AppCompatSpinner;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
@@ -38,6 +37,7 @@ public class HomeFragment extends Fragment {
     Timer timer;
     final long DELAY_MS = 200;//delay in milliseconds before task is to be executed
     final long PERIOD_MS = 2000;
+
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -67,7 +67,7 @@ public class HomeFragment extends Fragment {
             public void run() {
                 handler.post(Update);
             }
-        },DELAY_MS, PERIOD_MS);
+        }, DELAY_MS, PERIOD_MS);
 
 
         mInfoListButton.setOnClickListener((v) -> {

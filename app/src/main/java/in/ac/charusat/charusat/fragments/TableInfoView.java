@@ -139,10 +139,6 @@ class TableInfoView {
                 mContentArray.add("Design & Analysis of Bus Duct with Software Development");
                 mContentArray.add("$ 5000");
                 break;
-
-            case Detail.TOP_PLACEMENT:
-
-                break;
         }
         LegacyTableView.insertLegacyTitle(mTitleArray.toArray(new String[mTitleArray.size()]));
         //set table contents as string arrays

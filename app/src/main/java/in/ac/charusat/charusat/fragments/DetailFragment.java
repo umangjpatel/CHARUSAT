@@ -34,10 +34,8 @@ public class DetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
-
         //Loading IT list item
         mDetails = getArguments().getParcelableArrayList(ARG_DETAIL_LIST);
-
         //Display items in expandable recyclerview
         mExpandableView = view.findViewById(R.id.detail_expandable_view);
         for (Detail detail : mDetails) {

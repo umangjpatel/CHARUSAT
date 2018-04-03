@@ -15,8 +15,13 @@ public class InfoListActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment getFragment() {
-        Toolbar toolbar = findViewById(R.id.list_action_bar);
-        setSupportActionBar(toolbar);
+        Toolbar appToolbar = findViewById(R.id.app_action_bar);
+        appToolbar.setTitle(getIntent().getStringExtra(EXTRA_DEPT_NAME));
+        appToolbar.setNavigationIcon(R.drawable.ic_arrow_back);
+        setSupportActionBar(appToolbar);
+        appToolbar.setNavigationOnClickListener(v -> {
+            finish();
+        });
         return InfoListFragment.newInstance(getIntent().getStringExtra(EXTRA_DEPT_NAME));
     }
 

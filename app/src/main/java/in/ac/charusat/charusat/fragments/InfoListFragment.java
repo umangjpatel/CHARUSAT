@@ -60,7 +60,7 @@ public class InfoListFragment extends Fragment {
         @Override
         public void onClick(View v) {
             //Toast.makeText(getActivity(), "Hello", Toast.LENGTH_SHORT).show();
-            Intent intent = DetailActivity.newIntent(getActivity(), mDetails);
+            Intent intent = DetailActivity.newIntent(getActivity(), getResources().getString(mInfo.getTitleResId()), mDetails);
             startActivity(intent);
         }
     }

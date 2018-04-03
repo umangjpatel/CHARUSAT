@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
 import in.ac.charusat.charusat.R;
 
@@ -12,6 +13,8 @@ import in.ac.charusat.charusat.R;
  */
 
 public abstract class SingleFragmentActivity extends AppCompatActivity {
+
+    private Toolbar appToolbar;
 
     protected abstract Fragment getFragment();
 

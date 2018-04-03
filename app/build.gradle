@@ -45,6 +45,6 @@ dependencies {
     annotationProcessor 'com.mindorks.android:placeholderview-compiler:1.0.0'
     implementation 'com.github.levitnudi:LegacyTableView:1.2'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
-    implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'
+    implementation "com.android.support:support-dynamic-animation:25.3.1"
 }
 

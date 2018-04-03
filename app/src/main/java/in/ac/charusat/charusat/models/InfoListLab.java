@@ -37,7 +37,7 @@ public class InfoListLab {
         mInfoLists.add(new InfoList(R.drawable.ic_briefcase, R.string.pro_body_chapters));
         mInfoLists.add(new InfoList(R.drawable.ic_professor, R.string.faculty_information));
         mInfoLists.add(new InfoList(R.drawable.ic_school_bus, R.string.how_to_reach));
-        mInfoLists.add(new InfoList(R.drawable.ic_id_card, R.string.about_us));
+        mInfoLists.add(new InfoList(R.drawable.ic_id_card, R.string.about_developers));
     }
 
     public List<InfoList> getInfoLists() {

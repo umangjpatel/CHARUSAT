@@ -19,9 +19,7 @@ public class InfoListActivity extends SingleFragmentActivity {
         appToolbar.setTitle(getIntent().getStringExtra(EXTRA_DEPT_NAME));
         appToolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         setSupportActionBar(appToolbar);
-        appToolbar.setNavigationOnClickListener(v -> {
-            finish();
-        });
+        appToolbar.setNavigationOnClickListener(v -> finish());
         return InfoListFragment.newInstance(getIntent().getStringExtra(EXTRA_DEPT_NAME));
     }
 

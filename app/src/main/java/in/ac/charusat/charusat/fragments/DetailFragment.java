@@ -74,6 +74,9 @@ public class DetailFragment extends Fragment {
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
                     mExpandableView.addView(new ImageTableInfoView(getActivity(), detail));
                     break;
+                case Detail.ABOUT_DEVELOPERS_TYPE:
+                    mExpandableView.addView(new DevelopersInfoView());
+                    break;
             }
         }
 

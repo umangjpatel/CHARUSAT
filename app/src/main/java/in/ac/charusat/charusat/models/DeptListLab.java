@@ -28,7 +28,6 @@ public class DeptListLab {
 
     private void generateITDetailList() {
         mDetailList = new ArrayList<>();
-        // 0th position
         for (int i = 0; i < 15; i++) {
             ArrayList<Detail> details = new ArrayList<>();
 
@@ -123,15 +122,13 @@ public class DeptListLab {
                     details.add(new Detail(Detail.FACULTY_INFO_TYPE, R.string.it_sandip_patel, R.string.it_detail_sandip_patel, R.drawable.faculty_sandip_patel));
                     details.add(new Detail(Detail.FACULTY_INFO_TYPE, R.string.it_vishwa_vala, R.string.it_detail_vishwa_vala, R.drawable.faculty_vishwa_vala));
                     details.add(new Detail(Detail.FACULTY_INFO_TYPE, R.string.it_jay_patel, R.string.it_detail_jay_patel, R.drawable.faculty_jay_patel));
-
                     break;
                 case 11:
                     details.add(new Detail(Detail.MAP_ADDRESS_TYPE, 0, R.string.it_address, R.drawable.caharusat_map));
                     break;
-                default:
-                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.about_us, R.string.it_about_dept));
-                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.mission, R.string.it_mission_dept));
-                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.vision, R.string.it_vision_dept));
+                case 12:
+                    details.add(new Detail(Detail.ABOUT_DEVELOPERS_TYPE, 0, 0));
+                    break;
             }
             mDetailList.add(details);
         }

@@ -24,9 +24,7 @@ public class DetailActivity extends SingleFragmentActivity {
         appToolbar.setTitle(getIntent().getStringExtra(EXTRA_DETAIL_TOOLBAR_TITLE));
         appToolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         setSupportActionBar(appToolbar);
-        appToolbar.setNavigationOnClickListener(v -> {
-            finish();
-        });
+        appToolbar.setNavigationOnClickListener(v -> finish());
         Bundle bundle = getIntent().getBundleExtra("Bundle");
         ArrayList<Detail> details = bundle.getParcelableArrayList(EXTRA_DETAIL);
         return DetailFragment.newInstance(details);

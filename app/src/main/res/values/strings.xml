@@ -34,7 +34,7 @@
     <string name="pro_body_chapters">Professional Body Chapters</string>
     <string name="faculty_information">Faculty Info</string>
     <string name="how_to_reach">Reach Us</string>
-    <string name="about_us">About Us</string>
+    <string name="about_developers">About Developers</string>
     <string name="btnOK">Submit</string>
 
     <string name="toggle_content_description">Click to expand</string>
@@ -43,10 +43,15 @@
     <string name="mission">Mission</string>
     <string name="title_activity_maps">Map</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="fullForm">CHAOTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY</string>
+    <string name="fullForm">CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY</string>
     <string name="caption_title">Accredited with grade A by KCG, NAAC</string>
     <string name="subtitle_app">Education Department, Govt. Of Gujarat</string>
+    <string name="developed_by_header_label">Developed By :-</string>
+
+    <string name="about_developers_header"><b>CHARUSAT UNIVERSITY</b>
+    \nFACULTY OF TECHNOLOGY
+    \nAND ENGINEERING</string>
+    <string name="darshan_prajapati">Darshan.R.Prajapati</string>
+    <string name="umang_patel">Umang.J.Patel</string>
 
 </resources>

@@ -3,19 +3,26 @@ package in.ac.charusat.charusat.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatSpinner;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import in.ac.charusat.charusat.R;
 import in.ac.charusat.charusat.activities.InfoListActivity;
+import in.ac.charusat.charusat.adapters.AndroidImageAdapter;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,7 +34,10 @@ public class HomeFragment extends Fragment {
     private AppCompatButton mInfoListButton;
 
     private String mDeptName;
-
+    int currentPage = 0;
+    Timer timer;
+    final long DELAY_MS = 200;//delay in milliseconds before task is to be executed
+    final long PERIOD_MS = 2000;
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -41,6 +51,24 @@ public class HomeFragment extends Fragment {
         mInstituteSpinner = view.findViewById(R.id.institute_spinner);
         mDeptSpinner = view.findViewById(R.id.dept_spinner);
         mInfoListButton = view.findViewById(R.id.info_list_button);
+
+        ViewPager mViewPager = view.findViewById(R.id.viewPageAndroid);
+        AndroidImageAdapter adapterView = new AndroidImageAdapter(getContext());
+        mViewPager.setAdapter(adapterView);
+        final Handler handler = new Handler();
+        final Runnable Update = () -> {
+
+            mViewPager.setCurrentItem(currentPage++, true);
+        };
+
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                handler.post(Update);
+            }
+        },DELAY_MS, PERIOD_MS);
+
 
         mInfoListButton.setOnClickListener((v) -> {
             Intent intent = InfoListActivity.newIntent(getActivity(), mDeptName);

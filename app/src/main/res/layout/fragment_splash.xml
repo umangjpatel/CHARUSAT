@@ -41,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+
         android:text="@string/fullForm"
         android:textAlignment="center"
         android:textColor="@color/white"

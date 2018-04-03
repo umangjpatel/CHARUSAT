@@ -54,7 +54,7 @@ public class DetailFragment extends Fragment {
                     break;
                 case Detail.TWO_IMAGES_TYPE:
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
-                    mExpandableView.addView(new TwoImageInfoView(getActivity(), detail));
+                    mExpandableView.addView(new ImageTableInfoView(getActivity(), detail));
                     break;
                 case Detail.DIRECT_TEXT_TYPE:
                     mExpandableView.addView(new DirectTextView(getActivity(), detail));
@@ -72,7 +72,7 @@ public class DetailFragment extends Fragment {
                     break;
                 case Detail.IMAGE_TABLE_TYPE:
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
-                    mExpandableView.addView(new TwoImageInfoView(getActivity(), detail));
+                    mExpandableView.addView(new ImageTableInfoView(getActivity(), detail));
                     break;
             }
         }

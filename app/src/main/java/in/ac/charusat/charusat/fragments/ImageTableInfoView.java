@@ -16,7 +16,7 @@ import in.ac.charusat.charusat.R;
 import in.ac.charusat.charusat.models.Detail;
 
 @Layout(R.layout.images_table_feed_item)
-class TwoImageInfoView {
+class ImageTableInfoView {
 
     @ParentPosition
     int mParentPosition;
@@ -35,7 +35,7 @@ class TwoImageInfoView {
 
     private ArrayList<String> mTitleArray, mContentArray;
 
-    TwoImageInfoView(Context context, Detail info) {
+    ImageTableInfoView(Context context, Detail info) {
         mContext = context;
         mDetail = info;
         mTitleArray = new ArrayList<>();

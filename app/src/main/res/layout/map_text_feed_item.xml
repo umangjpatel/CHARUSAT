@@ -12,7 +12,18 @@
         android:layout_width="match_parent"
         android:layout_height="220dp"
         android:layout_marginTop="8dp"
-        tools:srcCompat="@drawable/acm_banner" />
+        tools:srcCompat="@drawable/caharusat_map" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_location"
+        android:fontFamily="@font/roboto_slab"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/address_label"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/address_textView"
@@ -20,11 +31,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:layout_weight="1"
         android:autoLink="all"
-        android:fontFamily = "@font/roboto_slab"
+        android:fontFamily="@font/roboto_slab"
         android:lineSpacingExtra="4sp"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        tools:text="@tools:sample/lorem/random" />
+        tools:text="@string/it_address" />
 
 </android.support.v7.widget.LinearLayoutCompat>

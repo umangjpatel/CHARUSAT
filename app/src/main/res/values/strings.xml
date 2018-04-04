@@ -56,6 +56,7 @@
     <string name="umang_patel">Umang.J.Patel</string>
     <string name = "umang_patel_email">umangpatel1947@gmail.com</string>
      <string name ="umang_phone">+91 8460532110</string>
+    <string name="address_label">Address</string>
 
 
 </resources>

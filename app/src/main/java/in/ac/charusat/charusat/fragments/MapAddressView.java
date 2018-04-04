@@ -1,6 +1,8 @@
 package in.ac.charusat.charusat.fragments;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.AppCompatTextView;
 
@@ -38,9 +40,21 @@ class MapAddressView {
 
     @Resolve
     void onResolved() {
-        //TODO : Apply onclick
+        //TODO : Apply map intent
         mMapImageView.setImageResource(mDetail.getImageResId());
         mAddressTextView.setText(mDetail.getContentResId());
+
+
+        mMapImageView.setOnClickListener(v -> {
+            Uri geoLocation = Uri.parse("geo:22.599643, 72.820371");
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW);
+            mapIntent.setData(geoLocation);
+            if (mapIntent.resolveActivity(mContext.getPackageManager()) != null) {
+                mContext.startActivity(mapIntent);
+            }
+
+
+        });
     }
 
 }

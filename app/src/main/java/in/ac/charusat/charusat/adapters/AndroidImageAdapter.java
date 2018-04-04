@@ -2,15 +2,12 @@ package in.ac.charusat.charusat.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import in.ac.charusat.charusat.R;
-import in.ac.charusat.charusat.fragments.HomeFragment;
 
 public class AndroidImageAdapter extends PagerAdapter {
     private Context mContext;

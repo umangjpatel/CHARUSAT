@@ -399,5 +399,8 @@ Student-teacher ratio is about 1:20 in B.Tech and 1:09 in M.Tech</string>
         \nGujarat (India) 388 421
         \nP: 02697-265131
         \nE: info@charusat.ac.in</string>
+    <string name="it_full_form_ieee">Institute of Electrical and Electronics Engineers</string>
+    <string name="it_full_form_csi">Computer Socierty of India</string>
+    <string name="it_full_form_acm">Association for Computing Machinery</string>
 
 </resources>

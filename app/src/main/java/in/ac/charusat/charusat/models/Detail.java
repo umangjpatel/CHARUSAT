@@ -11,7 +11,8 @@ public class Detail implements Parcelable {
 
     public static final int ONLY_TEXT_TYPE = 0, IMAGE_TEXT_TYPE = 1, ONLY_IMAGE_TYPE = 2,
             TWO_IMAGES_TYPE = 3, MAP_ADDRESS_TYPE = 4, DIRECT_TEXT_TYPE = 5,
-            ONLY_TABLE_TYPE = 6, IMAGE_TABLE_TYPE = 7, FACULTY_INFO_TYPE = 8, ABOUT_DEVELOPERS_TYPE = 9;
+            ONLY_TABLE_TYPE = 6, IMAGE_TABLE_TYPE = 7, FACULTY_INFO_TYPE = 8,
+            ABOUT_DEVELOPERS_TYPE = 9, BODY_CHAPTERS_INFO_TYPE = 10;
 
     public static final String BTECH_ADMIN = "btech", MTECH_ADMIN = "mtech", IPR = "ipr",
             CONSULTANCY = "consult", TOP_PLACEMENT = "placments",

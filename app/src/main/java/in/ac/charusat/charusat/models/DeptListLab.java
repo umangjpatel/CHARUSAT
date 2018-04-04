@@ -97,9 +97,9 @@ public class DeptListLab {
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_grants_information, R.string.it_detail_grants_information));
                     break;
                 case 9:
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_ieee, R.string.it_detail_ieee, R.drawable.ieee_banner));
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_csi, R.string.it_detail_csi, R.drawable.csi_banner));
-                    details.add(new Detail(Detail.IMAGE_TEXT_TYPE, R.string.it_acm, R.string.it_detail_acm, R.drawable.acm_banner));
+                    details.add(new Detail(Detail.BODY_CHAPTERS_INFO_TYPE, R.string.it_ieee, R.drawable.ieee_banner, R.string.it_full_form_ieee, R.string.it_detail_ieee));
+                    details.add(new Detail(Detail.BODY_CHAPTERS_INFO_TYPE, R.string.it_csi, R.drawable.csi_banner, R.string.it_full_form_csi, R.string.it_detail_csi));
+                    details.add(new Detail(Detail.BODY_CHAPTERS_INFO_TYPE, R.string.it_acm, R.drawable.acm_banner, R.string.it_full_form_acm, R.string.it_detail_acm));
                     break;
                 case 10:
                     details.add(new Detail(Detail.FACULTY_INFO_TYPE, R.string.it_hod, R.drawable.faculty_hod, R.string.it_qual_hod, R.string.it_detail_hod));

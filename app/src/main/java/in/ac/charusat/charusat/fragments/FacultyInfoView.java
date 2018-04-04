@@ -42,7 +42,7 @@ class FacultyInfoView {
     @Resolve
     void onResolved() {
         imageView.setImageResource(mDetail.getImageResId());
-        qualText.setText(mDetail.getContentResId());
-        infoText.setText(mDetail.getExtraContentResId());
+        infoText.setText(mDetail.getContentResId());
+        qualText.setText(mDetail.getExtraContentResId());
     }
 }

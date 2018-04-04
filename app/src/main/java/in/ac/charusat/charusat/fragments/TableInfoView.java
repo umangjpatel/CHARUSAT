@@ -133,11 +133,135 @@ class TableInfoView {
 
                 mContentArray.add("Nimisha International, USA");
                 mContentArray.add("Heat Transfer Analysis of Bus Duct & Analysis of AI Expansion Joint");
-                mContentArray.add("$ 5000");
+                mContentArray.add("$ 5000/-");
 
                 mContentArray.add("Nimisha International, USA");
                 mContentArray.add("Design & Analysis of Bus Duct with Software Development");
-                mContentArray.add("$ 5000");
+                mContentArray.add("$ 5000/-");
+
+                mContentArray.add("Department of Science and Technology (DST)");
+                mContentArray.add("Product Recommendation on Real Time Shopping mall data in the environment of IoT and Web Mining");
+                mContentArray.add("Rs. 40,82,600/-");
+
+                mContentArray.add("MODROB-AICTE");
+                mContentArray.add("High Performance Computing");
+                mContentArray.add("Rs. 20,00,000/-");
+
+                mContentArray.add("MODROB-AICTE");
+                mContentArray.add("Big Data Lab");
+                mContentArray.add("Rs. 18,00,000/-");
+
+                break;
+
+            case Detail.RESOURCE_GENERATION:
+                mTitleArray.clear();
+                mTitleArray.add("Organisation");
+                mTitleArray.add("Faculty");
+                mTitleArray.add("Amount Received (Rs.)");
+                mTitleArray.add("For");
+
+                mContentArray.clear();
+                mContentArray.add("NVIDIA Graphics Pvt. Ltd.");
+                mContentArray.add("Dr. Amit Thakkar");
+                mContentArray.add("1,75,000/-");
+                mContentArray.add("Nvidia GTX TitanXp & Nvidia Jetson Development Kit");
+
+                mContentArray.add("MHRD, Govt. of India under NMEICT scheme, IIT, Bombay");
+                mContentArray.add("Prof. Ayesha Shaikh");
+                mContentArray.add("2,80,000/-");
+                mContentArray.add("Infrastructure set up for A-View Classroom Project (Ongoing)");
+
+                mContentArray.add("MHRD, Govt. of India under NMEICT scheme, IIT, Bombay");
+                mContentArray.add("Prof. Ayesha Shaikh");
+                mContentArray.add("1,00,000/-");
+                mContentArray.add("Aakash-II Project (Completed)");
+
+                mContentArray.add("MHRD, Govt. of India under NMEICT scheme, IIT, Bombay");
+                mContentArray.add("Prof. Ayesha Shaikh");
+                mContentArray.add("184 Tablets");
+                mContentArray.add("Aakash-II Project (Tablets Received)");
+                break;
+            case Detail.COLLAB_PROJECT:
+                mTitleArray.clear();
+                mTitleArray.add("Faculty Coordinator");
+                mTitleArray.add("ID No.");
+                mTitleArray.add("Student Name");
+                mTitleArray.add("Project Title");
+                mTitleArray.add("Organisation / Dept. / Institute");
+                mTitleArray.add("External Coordinator");
+
+                mContentArray.clear();
+                mContentArray.add("Dr. Amit Thakkar");
+                mContentArray.add("15PGIT002");
+                mContentArray.add("Kinal Ajudiya");
+                mContentArray.add("Decision Support System for Supply Chain Logistic using Geographical Information System");
+                mContentArray.add("ISRO");
+                mContentArray.add("Dr. C.P.Singh");
+
+                mContentArray.add("Prof. Sonal Rami");
+                mContentArray.add("15PGIT001");
+                mContentArray.add("Himanshi Acharya");
+                mContentArray.add("Intelligent Control System for MR Damper using Bingham model");
+                mContentArray.add("PDPIAS (CHARUSAT)");
+                mContentArray.add("Dr. R.V.Upadhyay");
+
+                mContentArray.add("Prof. Sonal Rami");
+                mContentArray.add("15PGIT008");
+                mContentArray.add("Neil Joshi");
+                mContentArray.add("Intelligent Control System for MR Damper using Bouc-Wen model");
+                mContentArray.add("PDPIAS (CHARUSAT)");
+                mContentArray.add("Dr. R.V.Upadhyay");
+
+                mContentArray.add("Prof. Amit Nayak");
+                mContentArray.add("15PGIT015");
+                mContentArray.add("Divyang Solanki");
+                mContentArray.add("Inter-operable Client Server Comm Protocol with custom XSD Definition");
+                mContentArray.add("eInfochips Pvt. Ltd.");
+                mContentArray.add("Mr. Hitesh Ahuja");
+
+                mContentArray.add("Prof. Hemant Yadav");
+                mContentArray.add("15PGIT009");
+                mContentArray.add("Sanjay Makwana");
+                mContentArray.add("Data Integrity in IoT (Green House Automation");
+                mContentArray.add("EC Department");
+                mContentArray.add("Prof. Jignesh Patoliya");
+
+                mContentArray.add("Prof. Nirav Bhatt");
+                mContentArray.add("15PGIT014");
+                mContentArray.add("Sindur Patel");
+                mContentArray.add("Sensing Microblog for Effective Information Extraction");
+                mContentArray.add("LDRP");
+                mContentArray.add("Prof. S.J.Modha");
+                break;
+            case Detail.MOU:
+                mTitleArray.clear();
+                mTitleArray.add("Company Name");
+                mTitleArray.add("Date");
+
+                mContentArray.clear();
+                mContentArray.add("Rhino Machines Pvt. Ltd., V.V.Nagar, Anand");
+                mContentArray.add("27th March, 2018");
+
+                mContentArray.add("Systems Research Institute, Polish Academy of Sciences, Newelska 6, Warszawa, Poland");
+                mContentArray.add("20th March, 2018");
+
+                mContentArray.add("Collabera Technologies Pvt. Ltd., Vadodara");
+                mContentArray.add("15th October, 2015");
+
+                mContentArray.add("CELTIC Systems Pvt. Ltd., Vadodara");
+                mContentArray.add("6th July, 2015 to 5th July, 2017");
+
+                mContentArray.add("Federation of Gujarat Industries (FGI), Vadodara");
+                mContentArray.add("July, 2014");
+
+                mContentArray.add("Gujarat Electronics and Software Industries Association (GESIA), Ahmedabad");
+                mContentArray.add("21st May, 2013");
+
+                mContentArray.add("NME-ICT IIT Bombay");
+                mContentArray.add("19th March, 2013");
+
+                mContentArray.add("The Pennsylvania State University, USA");
+                mContentArray.add("2nd November, 2009");
                 break;
         }
         LegacyTableView.insertLegacyTitle(mTitleArray.toArray(new String[mTitleArray.size()]));

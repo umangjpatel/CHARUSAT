@@ -40,10 +40,8 @@ class MapAddressView {
 
     @Resolve
     void onResolved() {
-        //TODO : Apply map intent
         mMapImageView.setImageResource(mDetail.getImageResId());
         mAddressTextView.setText(mDetail.getContentResId());
-
 
         mMapImageView.setOnClickListener(v -> {
             Uri geoLocation = Uri.parse("geo:22.599643, 72.820371");

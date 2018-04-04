@@ -22,6 +22,9 @@ class FacultyInfoView {
     @ChildPosition
     int mChildPosition;
 
+    @View(R.id.faculty_qual_textView)
+    AppCompatTextView qualText;
+
     @View(R.id.faculty_info_textView)
     AppCompatTextView infoText;
 
@@ -39,6 +42,7 @@ class FacultyInfoView {
     @Resolve
     void onResolved() {
         imageView.setImageResource(mDetail.getImageResId());
-        infoText.setText(mDetail.getContentResId());
+        qualText.setText(mDetail.getContentResId());
+        infoText.setText(mDetail.getExtraContentResId());
     }
 }

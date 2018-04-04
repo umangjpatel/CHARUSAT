@@ -61,10 +61,12 @@
                 android:orientation="horizontal">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="56dp"
-                    android:layout_height="56dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginEnd="16dp"
-                    android:src="@drawable/faculty_hod" />
+                    android:src="@drawable/faculty_hod"
+                    app:civ_border_color="@color/text"
+                    app:civ_border_width="2dp" />
 
                 <android.support.v7.widget.AppCompatTextView
                     android:layout_width="wrap_content"
@@ -84,10 +86,12 @@
                 android:orientation="horizontal">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="56dp"
-                    android:layout_height="56dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginEnd="16dp"
-                    android:src="@drawable/faculty_hod" />
+                    android:src="@drawable/faculty_hod"
+                    app:civ_border_color="@color/text"
+                    app:civ_border_width="2dp" />
 
                 <android.support.v7.widget.AppCompatTextView
                     android:layout_width="wrap_content"

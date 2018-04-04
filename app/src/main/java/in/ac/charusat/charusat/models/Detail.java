@@ -11,16 +11,19 @@ public class Detail implements Parcelable {
 
     public static final int ONLY_TEXT_TYPE = 0, IMAGE_TEXT_TYPE = 1, ONLY_IMAGE_TYPE = 2,
             TWO_IMAGES_TYPE = 3, MAP_ADDRESS_TYPE = 4, DIRECT_TEXT_TYPE = 5,
-            ONLY_TABLE_TYPE = 6, IMAGE_TABLE_TYPE = 7, FACULTY_INFO_TYPE = 8
-            ,ABOUT_DEVELOPERS_TYPE = 9;
+            ONLY_TABLE_TYPE = 6, IMAGE_TABLE_TYPE = 7, FACULTY_INFO_TYPE = 8, ABOUT_DEVELOPERS_TYPE = 9;
 
     public static final String BTECH_ADMIN = "btech", MTECH_ADMIN = "mtech", IPR = "ipr",
-            CONSULTANCY = "consult", TOP_PLACEMENT = "placments";
+            CONSULTANCY = "consult", TOP_PLACEMENT = "placments",
+            RESOURCE_GENERATION = "resources_generation",
+            COLLAB_PROJECT = "collab_project",
+            MOU = "mou";
 
     private int mType;
     private int mHeaderResId;
     private int mContentResId;
     private int mImageResId;
+    private int mExtraContentResId;
     private String mTableType;
 
     public Detail(int type, int headerResId, int contentResId) {
@@ -34,6 +37,14 @@ public class Detail implements Parcelable {
         mHeaderResId = headerResId;
         mContentResId = contentResId;
         mImageResId = imageResId;
+    }
+
+    public Detail(int type, int headerResId, int imageResId, int facultyQualResId, int facultyInfoResId) {
+        mType = type;
+        mHeaderResId = headerResId;
+        mImageResId = imageResId;
+        mExtraContentResId = facultyQualResId;
+        mContentResId = facultyInfoResId;
     }
 
     public Detail(int type, int headerResId, int imageResId, boolean isImageOnly) {
@@ -58,6 +69,7 @@ public class Detail implements Parcelable {
     protected Detail(Parcel in) {
         mType = in.readInt();
         mHeaderResId = in.readInt();
+        mExtraContentResId = in.readInt();
         mContentResId = in.readInt();
         mImageResId = in.readInt();
         mTableType = in.readString();
@@ -73,6 +85,10 @@ public class Detail implements Parcelable {
 
     public int getContentResId() {
         return mContentResId;
+    }
+
+    public int getExtraContentResId() {
+        return mExtraContentResId;
     }
 
     public int getImageResId() {
@@ -93,6 +109,7 @@ public class Detail implements Parcelable {
         dest.writeInt(mType);
         dest.writeInt(mHeaderResId);
         dest.writeInt(mContentResId);
+        dest.writeInt(mExtraContentResId);
         dest.writeInt(mImageResId);
         dest.writeString(mTableType);
     }
@@ -108,5 +125,4 @@ public class Detail implements Parcelable {
             return new Detail[size];
         }
     };
-
 }

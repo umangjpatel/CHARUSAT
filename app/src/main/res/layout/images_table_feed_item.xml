@@ -21,6 +21,7 @@
         android:background="@color/text"
         android:text="Top Placements"
         android:textAlignment="center"
+        android:fontFamily="@font/roboto_slab"
         android:textColor="@color/white"
         android:textSize="20sp" />
 

@@ -20,6 +20,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:autoLink="email"
+        android:fontFamily="@font/roboto_slab"
         android:lineSpacingExtra="4sp"
         android:textColor="@android:color/black"
         android:textSize="18sp"

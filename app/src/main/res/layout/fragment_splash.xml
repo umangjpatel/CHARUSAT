@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:scaleType="matrix"
+            android:scaleType="center"
             android:src="@drawable/splash" />
     </android.support.v7.widget.CardView>
 
@@ -32,8 +32,8 @@
         android:text="@string/app_name"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="32sp"
-        android:textStyle="bold" />
+        android:textSize="40sp"
+        android:fontFamily="@font/suez_one"/>
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/fullForm_text"
@@ -43,8 +43,11 @@
 
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold" />
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/roboto_slab" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/fullInfo_text"
@@ -53,7 +56,8 @@
         android:text="@string/caption_title"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_slab"/>
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/extraInfo_text"
@@ -62,6 +66,8 @@
         android:text="@string/subtitle_app"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_slab"
+        />
 
 </android.support.v7.widget.LinearLayoutCompat>

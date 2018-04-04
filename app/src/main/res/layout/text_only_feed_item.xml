@@ -9,4 +9,5 @@
     android:lineSpacingExtra="4sp"
     android:textColor="@android:color/black"
     android:textSize="18sp"
+    android:fontFamily="@font/roboto_slab"
     tools:text="@tools:sample/lorem/random" />

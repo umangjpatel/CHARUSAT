@@ -19,7 +19,7 @@
             android:id="@+id/header_about_textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="roboto"
+            android:fontFamily="@font/roboto_slab"
             android:gravity="center_horizontal"
             android:lineSpacingExtra="4sp"
             android:text="@string/about_developers_header"
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="8dp"
-                android:fontFamily="roboto"
+                android:fontFamily="@font/roboto_slab"
                 android:text="@string/developed_by_header_label"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textSize="18sp"
@@ -64,7 +64,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginEnd="16dp"
-                    android:src="@drawable/faculty_hod"
+                    android:src="@drawable/umang_patel"
                     app:civ_border_color="@color/text"
                     app:civ_border_width="2dp" />
 
@@ -74,7 +74,8 @@
                     android:lineSpacingExtra="4sp"
                     android:text="@string/umang_patel"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:fontFamily="@font/roboto_slab"/>
 
             </android.support.v7.widget.LinearLayoutCompat>
 
@@ -89,7 +90,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginEnd="16dp"
-                    android:src="@drawable/faculty_hod"
+                    android:src="@drawable/darshan_p"
                     app:civ_border_color="@color/text"
                     app:civ_border_width="2dp" />
 
@@ -99,6 +100,7 @@
                     android:lineSpacingExtra="4sp"
                     android:text="@string/darshan_prajapati"
                     android:textSize="18sp"
+                    android:fontFamily="@font/roboto_slab"
                     android:textStyle="bold" />
 
             </android.support.v7.widget.LinearLayoutCompat>

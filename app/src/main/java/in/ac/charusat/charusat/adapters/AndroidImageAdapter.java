@@ -2,6 +2,8 @@ package in.ac.charusat.charusat.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,12 +14,12 @@ import in.ac.charusat.charusat.fragments.HomeFragment;
 
 public class AndroidImageAdapter extends PagerAdapter {
     private Context mContext;
-    private HomeFragment mHomeFragment;
+
     public AndroidImageAdapter(Context context) {
         mContext = context;
     }
     private int[] sliderImagesId = new int[]{
-            R.drawable.charusat_banner,R.drawable.view_two,R.drawable.view_one
+            R.drawable.charusat_banner,R.drawable.view_two,R.drawable.view_one,R.drawable.view_three,R.drawable.view_four,R.drawable.view_five
     };
 
     @Override

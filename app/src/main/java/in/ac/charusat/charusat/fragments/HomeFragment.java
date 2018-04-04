@@ -57,10 +57,13 @@ public class HomeFragment extends Fragment {
         mViewPager.setAdapter(adapterView);
         final Handler handler = new Handler();
         final Runnable Update = () -> {
-
-            mViewPager.setCurrentItem(currentPage++, true);
+            mViewPager.setCurrentItem(currentPage, true);
+            if(currentPage == Integer.MAX_VALUE){
+                currentPage = 0;
+            }else{
+                currentPage++;
+            }
         };
-
         timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override

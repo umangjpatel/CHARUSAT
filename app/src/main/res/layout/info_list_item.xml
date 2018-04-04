@@ -9,6 +9,7 @@
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
     android:padding="8dp"
+    android:background="@drawable/background_gradient"
     app:cardCornerRadius="12dp"
     app:cardElevation="10dp">
 
@@ -30,6 +31,7 @@
         <android.support.v7.widget.AppCompatTextView
             android:id="@+id/info_title_textView"
             android:layout_width="0dp"
+            android:fontFamily = "@font/roboto_slab"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:textAppearance="?android:textAppearanceSmall"

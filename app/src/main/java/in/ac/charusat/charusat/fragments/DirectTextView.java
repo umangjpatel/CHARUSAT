@@ -26,11 +26,9 @@ class DirectTextView {
     @ParentPosition
     int mParentPosition;
 
-    private Context mContext;
     private Detail mDetail;
 
     public DirectTextView(Context context, Detail detail) {
-        mContext = context;
         mDetail = detail;
     }
 

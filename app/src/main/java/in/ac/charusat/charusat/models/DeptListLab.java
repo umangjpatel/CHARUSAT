@@ -32,6 +32,11 @@ public class DeptListLab {
             ArrayList<Detail> details = new ArrayList<>();
 
             switch (i) {
+                case 0:
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.about_us, R.string.it_about_dept));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.mission, R.string.it_mission_dept));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.vision, R.string.it_vision_dept));
+                    break;
                 case 1:
                     details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_btech_admission_stats, Detail.BTECH_ADMIN));
                     details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_mtech_admission_stats, Detail.MTECH_ADMIN));

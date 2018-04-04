@@ -1,177 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="@drawable/background_gradient"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <android.support.v7.widget.CardView
+    <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:padding="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="10dp">
-        <android.support.v7.widget.LinearLayoutCompat
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:src = "@drawable/dev_banner"
-            android:scaleType="centerInside"
-            />
-
-        <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/header_about_textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_slab"
-            android:gravity="center_horizontal"
-            android:lineSpacingExtra="4sp"
-            android:text="@string/about_developers_header"
-            android:textColor="@color/text"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp"
-            />
-        </android.support.v7.widget.LinearLayoutCompat>
-    </android.support.v7.widget.CardView>
-
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:padding="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="10dp">
-
-        <android.support.v7.widget.LinearLayoutCompat
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/roboto_slab"
-                android:text="Guided By:-"
-                android:textAppearance="?android:textAppearanceLarge"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp">
 
             <android.support.v7.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginEnd="16dp"
-                    android:src="@drawable/faculty_hod"
-                    app:civ_border_color="@color/text"
-                    app:civ_border_width="2dp" />
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/dev_banner" />
 
                 <android.support.v7.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/header_about_textView"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal"
                     android:lineSpacingExtra="4sp"
-                    android:text="@string/it_hod"
-                    android:textSize="18sp"
+                    android:text="@string/about_developers_header"
+                    android:textColor="@color/text"
+                    android:textSize="14sp"
+                    android:textAllCaps="true"
                     android:textStyle="bold" />
             </android.support.v7.widget.LinearLayoutCompat>
-        </android.support.v7.widget.LinearLayoutCompat>
-    </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:padding="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="10dp">
 
-        <android.support.v7.widget.LinearLayoutCompat
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/roboto_slab"
-                android:text="@string/developed_by_header_label"
-                android:textAppearance="?android:textAppearanceLarge"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp">
 
             <android.support.v7.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginEnd="16dp"
-                    android:src="@drawable/umang_patel"
-                    app:civ_border_color="@color/text"
-                    app:civ_border_width="2dp" />
+                android:orientation="vertical">
 
                 <android.support.v7.widget.AppCompatTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
                     android:fontFamily="@font/roboto_slab"
-                    android:lineSpacingExtra="4sp"
-                    android:autoLink="email|phone"
-                    android:text= "@string/umang_patel"
+                    android:text="Guided By:-"
+                    android:textAppearance="?android:textAppearanceLarge"
                     android:textSize="18sp"
                     android:textStyle="bold" />
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/faculty_hod"
+                        app:civ_border_color="@color/text"
+                        app:civ_border_width="2dp" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_slab"
+                        android:lineSpacingExtra="4sp"
+                        android:text="@string/it_hod"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.LinearLayoutCompat>
+            </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto_slab"
+                    android:text="@string/developed_by_header_label"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/umang_patel"
+                        app:civ_border_color="@color/text"
+                        app:civ_border_width="2dp" />
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email|phone"
+                            android:fontFamily="@font/roboto_slab"
+                            android:lineSpacingExtra="4sp"
+                            android:text="@string/umang_patel"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email|phone"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_slab"
+                            android:lineSpacingExtra="4sp"
+                            android:maxLines="1"
+                            android:text="@string/umang_patel_email"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email|phone"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_slab"
+                            android:lineSpacingExtra="4sp"
+                            android:maxLines="1"
+                            android:text="@string/umang_phone"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.LinearLayoutCompat>
                 </android.support.v7.widget.LinearLayoutCompat>
 
-            <android.support.v7.widget.LinearLayoutCompat
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginEnd="16dp"
-                    android:src="@drawable/darshan_p"
-                    app:civ_border_color="@color/text"
-                    app:civ_border_width="2dp" />
-
-                <android.support.v7.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_slab"
-                    android:lineSpacingExtra="4sp"
-                    android:text="@string/darshan_prajapati"
-                    android:autoLink="email|phone"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:layout_margin="8dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/darshan_p"
+                        app:civ_border_color="@color/text"
+                        app:civ_border_width="2dp" />
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email|phone"
+                            android:fontFamily="@font/roboto_slab"
+                            android:lineSpacingExtra="4sp"
+                            android:text="@string/darshan_prajapati"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email|phone"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_slab"
+                            android:lineSpacingExtra="4sp"
+                            android:maxLines="1"
+                            android:text="@string/darshan_prajapati_email"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoLink="email|phone"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_slab"
+                            android:lineSpacingExtra="4sp"
+                            android:maxLines="1"
+                            android:text="@string/darshan_phone"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                </android.support.v7.widget.LinearLayoutCompat>
 
             </android.support.v7.widget.LinearLayoutCompat>
 
-        </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.CardView>
 
-    </android.support.v7.widget.CardView>
-
-</android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

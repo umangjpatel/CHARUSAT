@@ -49,17 +49,13 @@
     <string name="subtitle_app">Education Department, Govt. Of Gujarat</string>
     <string name="developed_by_header_label">Developed By :-</string>
 
-    <string name="about_developers_header"><b>CHARUSAT UNIVERSITY</b>
-    \nFACULTY OF TECHNOLOGY &amp; ENGINEERING</string>
-    <string name="darshan_prajapati">Darshan.R.Prajapati
-    \n dprajapati5206@gmail.com
-       \n +91 7600345206
-
-    </string>
-    <string name="umang_patel">Umang.J.Patel
-    \n umangpatel1947@gmail.com
-     \n +91 8460532110
-    </string>
+    <string name="about_developers_header">Charusat University\n Faculty of Technology &amp; Engineering</string>
+    <string name="darshan_prajapati">Darshan.R.Prajapati</string>
+    <string name="darshan_prajapati_email">dprajapati5206@gmail.com</string>
+    <string name = "darshan_phone">+91 7600345206</string>
+    <string name="umang_patel">Umang.J.Patel</string>
+    <string name = "umang_patel_email">umangpatel1947@gmail.com</string>
+     <string name ="umang_phone">+91 8460532110</string>
 
 
 </resources>

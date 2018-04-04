@@ -50,8 +50,6 @@ class MapAddressView {
             if (mapIntent.resolveActivity(mContext.getPackageManager()) != null) {
                 mContext.startActivity(mapIntent);
             }
-
-
         });
     }
 

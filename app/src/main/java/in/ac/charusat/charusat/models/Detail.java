@@ -66,14 +66,27 @@ public class Detail implements Parcelable {
         mTableType = tableType;
     }
 
+
     protected Detail(Parcel in) {
         mType = in.readInt();
         mHeaderResId = in.readInt();
-        mExtraContentResId = in.readInt();
         mContentResId = in.readInt();
         mImageResId = in.readInt();
+        mExtraContentResId = in.readInt();
         mTableType = in.readString();
     }
+
+    public static final Creator<Detail> CREATOR = new Creator<Detail>() {
+        @Override
+        public Detail createFromParcel(Parcel in) {
+            return new Detail(in);
+        }
+
+        @Override
+        public Detail[] newArray(int size) {
+            return new Detail[size];
+        }
+    };
 
     public int getType() {
         return mType;
@@ -109,20 +122,8 @@ public class Detail implements Parcelable {
         dest.writeInt(mType);
         dest.writeInt(mHeaderResId);
         dest.writeInt(mContentResId);
-        dest.writeInt(mExtraContentResId);
         dest.writeInt(mImageResId);
+        dest.writeInt(mExtraContentResId);
         dest.writeString(mTableType);
     }
-
-    public static final Creator<Detail> CREATOR = new Creator<Detail>() {
-        @Override
-        public Detail createFromParcel(Parcel in) {
-            return new Detail(in);
-        }
-
-        @Override
-        public Detail[] newArray(int size) {
-            return new Detail[size];
-        }
-    };
 }

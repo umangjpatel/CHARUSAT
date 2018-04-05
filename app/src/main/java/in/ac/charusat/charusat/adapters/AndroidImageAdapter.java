@@ -17,7 +17,7 @@ public class AndroidImageAdapter extends PagerAdapter {
     }
 
     public int[] sliderImagesId = new int[]{
-            R.drawable.charusat_banner, R.drawable.view_two, R.drawable.view_one, R.drawable.view_three, R.drawable.view_four, R.drawable.view_five
+            R.drawable.view_two,R.drawable.charusat_admin, R.drawable.charusat_central_lawn, R.drawable.view_one, R.drawable.view_five,R.drawable.charusat_info
     };
 
     @Override

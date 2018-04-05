@@ -34,8 +34,8 @@ public class DeptListLab {
             switch (i) {
                 case 0:
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.about_us, R.string.it_about_dept));
-                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.mission, R.string.it_mission_dept));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.vision, R.string.it_vision_dept));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.mission, R.string.it_mission_dept));
                     break;
                 case 1:
                     details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_btech_admission_stats, Detail.BTECH_ADMIN));

@@ -35,39 +35,21 @@ public class SplashFragment extends Fragment {
     }
 
     CardView mCharusatLogo;
-    TextView mTitle;
-    TextView mFullFormTitle;
-    TextView mCaptionTitle;
-    TextView mSubtitle;
     @RequiresApi(api = Build.VERSION_CODES.ECLAIR)
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_splash,container,false);
         mCharusatLogo = view.findViewById(R.id.card_view);
-        mTitle = view.findViewById(R.id.main_title);
-        mFullFormTitle = view.findViewById(R.id.fullForm_text);
-        mCaptionTitle = view.findViewById(R.id.fullInfo_text);
-        mSubtitle = view.findViewById(R.id.extraInfo_text);
         Animation animation = AnimationUtils.loadAnimation(getActivity(),R.anim.custom_animation);
         mCharusatLogo.startAnimation(animation);
-
-        Animation mTitleAnimation = AnimationUtils.loadAnimation(getActivity(),R.anim.text_animation);
-        Animation mFullFormAnimation = AnimationUtils.loadAnimation(getActivity(),R.anim.text_animation);
-        Animation mCaptionAnimation = AnimationUtils.loadAnimation(getActivity(),R.anim.text_animation);
-        Animation mSubtitleAnimation = AnimationUtils.loadAnimation(getActivity(),R.anim.text_animation);
-        mTitle.startAnimation(mTitleAnimation);
-        mFullFormTitle.setAnimation(mFullFormAnimation);
-        mCaptionTitle.setAnimation(mCaptionAnimation);
-        mSubtitle.setAnimation(mSubtitleAnimation);
-
 
         new Handler().postDelayed(() -> {
             /* Create an Intent that will start the Menu-Activity. */
             startActivity(new Intent(getActivity(),HomeActivity.class));
             Objects.requireNonNull(getActivity()).overridePendingTransition(R.anim.downtoup, R.anim.downtoup);
             getActivity().finish();
-        }, 3500);
+        }, 3000);
         return view;
 
     }

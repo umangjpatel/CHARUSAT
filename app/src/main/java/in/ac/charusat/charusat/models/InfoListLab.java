@@ -1,6 +1,7 @@
 package in.ac.charusat.charusat.models;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import in.ac.charusat.charusat.R;
@@ -12,6 +13,7 @@ import in.ac.charusat.charusat.R;
 public class InfoListLab {
     private static InfoListLab sInfoListLab;
     private List<InfoList> mInfoLists;
+    private HashMap<String, String> mToolbarTitlesList;
 
     public static InfoListLab getInstance() {
         if (sInfoListLab == null)
@@ -21,7 +23,19 @@ public class InfoListLab {
 
     private InfoListLab() {
         addInfoData();
+        adToolbarTitlesData();
     }
+
+    private void adToolbarTitlesData() {
+        mToolbarTitlesList = new HashMap<>();
+        mToolbarTitlesList.put("IT", "Information Technology");
+        mToolbarTitlesList.put("CE", "Computer Engineering");
+        mToolbarTitlesList.put("ME", "Mechanical Engineering");
+        mToolbarTitlesList.put("EE", "Electrical Engineering");
+        mToolbarTitlesList.put("EC", "Electronic and Communication");
+        mToolbarTitlesList.put("CL", "Civil Engineering");
+    }
+
 
     private void addInfoData() {
         mInfoLists = new ArrayList<>();
@@ -42,5 +56,9 @@ public class InfoListLab {
 
     public List<InfoList> getInfoLists() {
         return mInfoLists;
+    }
+
+    public String getToolbarTitle(String deptName) {
+        return mToolbarTitlesList.get(deptName);
     }
 }

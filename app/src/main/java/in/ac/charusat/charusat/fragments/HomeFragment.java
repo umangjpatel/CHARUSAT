@@ -16,6 +16,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 
+import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -31,12 +32,13 @@ public class HomeFragment extends Fragment {
     private AppCompatSpinner mInstituteSpinner, mDeptSpinner;
     private ArrayAdapter<CharSequence> mInstituteAdapter, mDeptAdapter;
     private AppCompatButton mInfoListButton;
+    private HashMap<ArrayAdapter,ArrayAdapter> mSpinnerArrayAdapterHashMap;
 
     private String mDeptName;
     int currentPage = 0;
     Timer timer;
-    final long DELAY_MS = 200;//delay in milliseconds before task is to be executed
-    final long PERIOD_MS = 2000;
+    final long DELAY_MS = 350;//delay in milliseconds before task is to be executed
+    final long PERIOD_MS = 2500;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -104,7 +106,7 @@ public class HomeFragment extends Fragment {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                //Nothing was selected
+
             }
         });
 

@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 
 import in.ac.charusat.charusat.R;
 import in.ac.charusat.charusat.fragments.InfoListFragment;
+import in.ac.charusat.charusat.models.InfoListLab;
 
 public class InfoListActivity extends SingleFragmentActivity {
 
@@ -16,7 +17,7 @@ public class InfoListActivity extends SingleFragmentActivity {
     @Override
     protected Fragment getFragment() {
         Toolbar appToolbar = findViewById(R.id.app_action_bar);
-        appToolbar.setTitle(getIntent().getStringExtra(EXTRA_DEPT_NAME));
+        appToolbar.setTitle(InfoListLab.getInstance().getToolbarTitle(getIntent().getStringExtra(EXTRA_DEPT_NAME)));
         appToolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         setSupportActionBar(appToolbar);
         appToolbar.setNavigationOnClickListener(v -> finish());

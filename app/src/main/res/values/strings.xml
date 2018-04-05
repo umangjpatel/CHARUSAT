@@ -4,6 +4,7 @@
     <string name="next_label">Next</string>
 
     <string-array name="institutes_array">
+        <item>Select Your Institute</item>
         <item>CSPIT</item>
         <item>Pharmacy</item>
         <item>Physiotherapy</item>
@@ -14,6 +15,7 @@
     </string-array>
 
     <string-array name="departments_array">
+        <item>Select Your Department</item>
         <item>IT</item>
         <item>ME</item>
         <item>CE</item>
@@ -23,7 +25,7 @@
     </string-array>
 
     <string name="it_about_institute">About Department</string>
-    <string name="admission_stats">Admission</string>
+    <string name="admission_stats">Admission Stats</string>
     <string name="placement">Placement &amp; Higher Study</string>
     <string name="resources">Resources</string>
     <string name="international_collab">Collaborations</string>
@@ -35,7 +37,7 @@
     <string name="faculty_information">Faculty Info</string>
     <string name="how_to_reach">Reach Us</string>
     <string name="about_developers">About Developers</string>
-    <string name="btnOK">Submit</string>
+    <string name="btnOK">Let\'s Go</string>
 
     <string name="toggle_content_description">Click to expand</string>
 
@@ -45,11 +47,12 @@
     <string name="title_activity_maps">Map</string>
 
     <string name="fullForm">CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY</string>
-    <string name="caption_title">Accredited with grade A by KCG, NAAC</string>
+    <string name="caption_title">Accredited with grade A by NAAC, KCG</string>
     <string name="subtitle_app">Education Department, Govt. Of Gujarat</string>
     <string name="developed_by_header_label">Developed By :-</string>
 
     <string name="about_developers_header">Charusat University\n Faculty of Technology &amp; Engineering</string>
+    <string name="about_ranking">Ranked 105 by NIRF</string>
     <string name="darshan_prajapati">Darshan.R.Prajapati</string>
     <string name="darshan_prajapati_email">dprajapati5206@gmail.com</string>
     <string name = "darshan_phone">+91 7600345206</string>

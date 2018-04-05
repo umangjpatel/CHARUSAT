@@ -15,8 +15,9 @@ public class AndroidImageAdapter extends PagerAdapter {
     public AndroidImageAdapter(Context context) {
         mContext = context;
     }
-    private int[] sliderImagesId = new int[]{
-            R.drawable.charusat_banner,R.drawable.view_two,R.drawable.view_one,R.drawable.view_three,R.drawable.view_four,R.drawable.view_five
+
+    public int[] sliderImagesId = new int[]{
+            R.drawable.charusat_banner, R.drawable.view_two, R.drawable.view_one, R.drawable.view_three, R.drawable.view_four, R.drawable.view_five
     };
 
     @Override
@@ -43,5 +44,9 @@ public class AndroidImageAdapter extends PagerAdapter {
     @Override
     public void destroyItem(@NonNull ViewGroup container, int i, @NonNull Object obj) {
         container.removeView((ImageView) obj);
+    }
+
+    public int getSliderImagesSize() {
+        return sliderImagesId.length;
     }
 }

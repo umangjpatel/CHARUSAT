@@ -11,9 +11,11 @@ import com.mindorks.placeholderview.annotations.expand.ParentPosition;
 
 import in.ac.charusat.charusat.R;
 import in.ac.charusat.charusat.models.Detail;
+import in.ac.charusat.charusat.models.TableListLab;
 
 @Layout(R.layout.only_table_feed_item)
 class TableInfoView {
+
 
     @ParentPosition
     int mParentPosition;
@@ -22,22 +24,26 @@ class TableInfoView {
     int mChildPosition;
 
     @View(R.id.table_view)
-    static LegacyTableView legacyTableView;
+    LegacyTableView legacyTableView;
 
     private Detail mDetail;
     private Context mContext;
-
     private String[] mTitleArray, mContentArray;
 
-    TableInfoView(Context context, String[] titles, String[] contents) {
+    private final TableListLab mTableListLab;
+
+    public TableInfoView(Context context, Detail detail) {
         mContext = context;
-        mTitleArray = titles;
-        mContentArray = contents;
+        mDetail = detail;
+        mTableListLab = TableListLab.getInstance();
+
     }
 
     @Resolve
     void onResolved() {
         //TODO: Solve table bug
+        mTitleArray = mTableListLab.getTableInfoList(mDetail.getTableType()).get(0);
+        mContentArray = mTableListLab.getTableInfoList(mDetail.getTableType()).get(1);
         LegacyTableView.insertLegacyTitle(mTitleArray);
         LegacyTableView.insertLegacyContent(mContentArray);
         legacyTableView.setTitle(LegacyTableView.readLegacyTitle());

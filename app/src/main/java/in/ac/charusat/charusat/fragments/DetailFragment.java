@@ -73,7 +73,7 @@ public class DetailFragment extends Fragment {
                     break;
                 case Detail.ONLY_TABLE_TYPE:
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
-                    mExpandableView.addView(new TableInfoView(getActivity(), mTableListLab.getTableInfoList(detail.getTableType()).get(0), mTableListLab.getTableInfoList(detail.getTableType()).get(1)));
+                    mExpandableView.addView(new TableInfoView(getActivity(), detail));
                     break;
                 case Detail.IMAGE_TABLE_TYPE:
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));

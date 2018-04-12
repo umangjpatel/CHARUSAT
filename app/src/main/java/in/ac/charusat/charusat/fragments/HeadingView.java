@@ -61,6 +61,7 @@ class HeadingView {
     @Collapse
     void onCollapse() {
         toggleIcon.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_arrow_down));
+        System.gc();
     }
 
 }

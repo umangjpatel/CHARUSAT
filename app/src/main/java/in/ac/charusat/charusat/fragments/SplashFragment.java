@@ -49,7 +49,7 @@ public class SplashFragment extends Fragment {
             startActivity(new Intent(getActivity(),HomeActivity.class));
             Objects.requireNonNull(getActivity()).overridePendingTransition(R.anim.downtoup, R.anim.downtoup);
             getActivity().finish();
-        }, 3000);
+        }, 2000);
         return view;
 
     }

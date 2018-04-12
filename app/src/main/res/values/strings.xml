@@ -57,7 +57,7 @@
     <string name="sibridge_text">Sibridge</string>
     <string name="synoverge_text">Synoverge</string>
     <string name="tatvasoft_text">Tatvasoft</string>
-    <string name="tcs_text">TCS\n Tata Consultancy Service</string>
+    <string name="tcs_text">TCS</string>
     <string name="volanysis_text">Volansys</string>
     <string name="vr_text">VR Software</string>
 
@@ -95,74 +95,77 @@
     <string name="cryptography_title">Cryptography</string>
     <string name="control_robot_title">Android Based Speed Control Robot</string>
 
-    <string name="gesture_car_content">Gesture Controlled Robot is which can be controlled by simple gestures.The user needs to wear a gesture device which includes a sensor. The sensor will record the movement of hand in specific direction which will result in the movement of the robot in the respective direction. The robot and the gesture device are connected wirelessly via radio waves. The wireless communication enables the user to interact with robot in a more friendly way. This robot can also be controlled using smartphones using acclerometer.\n \n By: Jay Shah, Jimmy Dani, Anuj Joshi</string>
+    <string name="gesture_car_content">Gesture Controlled Robot is which can be controlled by simple gestures.The user needs to wear a gesture device which includes a sensor. The sensor will record the movement of hand in specific direction which will result in the movement of the robot in the respective direction. The robot and the gesture device are connected wirelessly via radio waves. The wireless communication enables the user to interact with robot in a more friendly way. This robot can also be controlled using smartphones using acclerometer.\n \n By: Jay Shah, Jimmy Dani, Anuj Joshi.</string>
 
-    <string name="wifi_attendence_content">The importance of attendance taking and processing in educational instution and corporate oraginzation cannot be over emphasized. Up till date, most institution engage in the use of paper and pen in taking and processing of class attendenc and this bhas provrnto be very strssful, time consuing, uinreliable, inaccurate and inefficient. However, it has been empirically proven over the years that no two human beings have same fonger print. Therefore. we adpoted fingerprint biometrics in this work to develop a wireless attendece management system using Wi-Fi a precessing and management of class attendance. A simple yet elegant solution to which prevents proxy and mark\'s reliable attendec. Below is the general idea regarding the project.\n \n By: Abhishek M. Despande, Manthan Patel, Vishal Tank </string>
+    <string name="wifi_attendence_content">The importance of attendance taking and processing in educational instution and corporate oraginzation cannot be over emphasized. Up till date, most institution engage in the use of paper and pen in taking and processing of class attendenc and this bhas provrnto be very strssful, time consuing, uinreliable, inaccurate and inefficient. However, it has been empirically proven over the years that no two human beings have same fonger print. Therefore. we adpoted fingerprint biometrics in this work to develop a wireless attendece management system using Wi-Fi a precessing and management of class attendance. A simple yet elegant solution to which prevents proxy and mark\'s reliable attendec. Below is the general idea regarding the project.\n \n By: Abhishek M. Despande, Manthan Patel, Vishal Tank. </string>
 
     <string name="home_raspberry_content">The rapidly advancing mobile communication technology and the decrease in costs make it possible to incorporate mobile technology into home automation systems. The aim of this project is to develop a system that will provide remote control of home appliances and also provide security against intrusion when the home host is not at home. We propose a mobile-based home automation system that consists of a mobile phone with windows or android platform, raspberry pi, topping pi for led instead of home appliance, fire sensor, and proximity sensor. For this project we have used led instead of relay.
 Led is controlled by the raspberry pi, which operates according to the user commands received from the mobile phone via Cortana (windows platform) and an application (android platform). In our proposed system the raspberry pi will receive command from cloud services like Microsoft Azure for Windows platform and MQTT for Android platform created by user from mobile app. We have also ensured the security aspects which include intrusion detection using proximity sensor and fire alarm using fire sensor. All sensors are connected to raspberry pi. If any of the previously mention event occurs it will immediately inform user through text sms and also email notification.
 
-        \n \n By : Anurag Patel (12IT117), Deep Patel (12IT119)
+        \n \n By : Anurag Patel, Deep Patel.
 </string>
 
-    <string name="intranet_content">This project is aimed at developing an online college intranet website .The Intranet website can be accessed throughout the organization or a specified group/Department. Everyone can come to know about the events and happening in college. It provides complete information about the college, its facilities, events and department information. It is dynamic, responsive and more user-friendly. It can also be used as a medium to attract admissions and provide information for the same .This system can be used as a information management system for the college. It also has a login functionality using which students and teachers can log in to their respective accounts and upload, access data. New users can also make new accounts and register themselves. Users can also seek admission information by dropping in their contact details.</string>
+    <string name="intranet_content">This project is aimed at developing an online college intranet website .The Intranet website can be accessed throughout the organization or a specified group/Department. Everyone can come to know about the events and happening in college. It provides complete information about the college, its facilities, events and department information. It is dynamic, responsive and more user-friendly. It can also be used as a medium to attract admissions and provide information for the same .This system can be used as a information management system for the college. It also has a login functionality using which students and teachers can log in to their respective accounts and upload, access data. New users can also make new accounts and register themselves. Users can also seek admission information by dropping in their contact details.
+
+        \n \n By: Neti Seth.
+    </string>
 
     <string name="online_quiz_content">Online Quiz on general knowledge can be played by people of varying category to check their knowledge and even increase the same. It has a major benefit of attempting the quiz anywhere as it is online. Besides, quizzes use a lot of tactics to add fun. Online Quiz Project is a menu driven software package. It is a computerized system of the manual job which would otherwise be conducted on paper. The project displays questions along with options. It, thereafter, accepts the answers from the user and check for its correctness. In addition, it keeps track of score at each question. The main feature of this project is that it is user friendly and provides knowledge with fun.
 The low level of complexity and high level of flexibility makes it more attractive to its user. The project is easily available and requires almost no extra cost for its development. Another major benefit of the project is that it is online!!! Its executable file can be sent online and player can attempt it anywhere and anytime. When the player enters his choice, the system either responds as correct/incorrect or calls a module called ‘lifeline’.
 
-        \n \nBy : Richa Desai, Shivani Bachani
+        \n \nBy : Richa Desai, Shivani Bachani.
 </string>
 
-    <string name="elearning_content">“E-LEARNING” is a system which can manage all learning requirements of user online. This System is handled and managed by Admin. Admin can appoint Company Trainer. He can block user if the user seems to misuse the system and even add or remove User to the system. User of different fields who wish to collaborate with the system and provide their services to the user can collaborate. But they can be only be visible to user after their existence status is verified by the Trainer or Admin. They can even manage their profile. Trainer has the role of verifying the existence of User. hey verify that the registered Trainer are not fake/fraud, Trainer Can add Course, Session, material, Quiz and can take a payment likewise Admin and appoint for interview and then next step for placement. T User can register them and after registering they can Buy a Course which they wish to have according to their budget, they can give a exam of Courses., can a give aptitude test, ask a query to trainers, chatting module between user like a forum and also can download attachment like video, example, description .
+    <string name="elearning_content">E-LEARNING is a system which can manage all learning requirements of user online. This System is handled and managed by Admin. Admin can appoint Company Trainer. He can block user if the user seems to misuse the system and even add or remove User to the system. User of different fields who wish to collaborate with the system and provide their services to the user can collaborate. But they can be only be visible to user after their existence status is verified by the Trainer or Admin. They can even manage their profile. Trainer has the role of verifying the existence of User. hey verify that the registered Trainer are not fake/fraud, Trainer Can add Course, Session, material, Quiz and can take a payment likewise Admin and appoint for interview and then next step for placement. T User can register them and after registering they can Buy a Course which they wish to have according to their budget, they can give a exam of Courses., can a give aptitude test, ask a query to trainers, chatting module between user like a forum and also can download attachment like video, example, description .
 
-        \n \nBy : Rinkal Domadiya
+        \n \nBy : Rinkal Domadiya.
 </string>
 
     <string name="blender_content">The Project is on “Destruction of rigid bodies using Blender”. Blender provides a broad spectrum of modeling, texturing, lighting, animation and video post-processing functionality in one package. Through its open architecture, Blender provides cross-platform interoperability, extensibility, an incredibly small footprint, and a tightly integrated workflow. Blender is one of the most popular open source 3D graphics applications in the world. Aimed world-wide at media professionals and artists, Blender can be used to create 3D visualizations, still as well as broadcast and cinema quality videos, while the incorporation of a real-time 3D engine for the creation of 3D interactive content for stand-alone playback.
 
-        \n \nBy : Jeenal Chaudhary, Vishal Dhanadiya
+        \n \nBy : Jeenal Chaudhary, Vishal Dhanadiya.
 </string>
 
-    <string name="contacter_content">CONTACTER” – an android application” is an android based program that works for the purpose of duplication of contacts which delete duplicate contacts from phone. It facilitates automatic selection of duplicate contacts and therefore makes it easy for directly accessing duplicate contacts.
+    <string name="contacter_content">CONTACTER – an android application” is an android based program that works for the purpose of duplication of contacts which delete duplicate contacts from phone. It facilitates automatic selection of duplicate contacts and therefore makes it easy for directly accessing duplicate contacts.
 
-        \n \nBy : Mitrank Modi [13IT045], Akshita Kadam [13IT030]
+        \n \nBy : Mitrank Modi, Akshita Kadam.
 </string>
 
     <string name="smart_trolley_content">Now days purchasing and shopping at big malls is becoming a daily activity in metro cities. We can see huge rush at malls on holidays and weekends. The rush is even more when there are special offers and discount. People purchase different items and put them in trolley. After total purchase one needs to go to billing counter for payments. At the billing counter the cashier prepare the bill using bar code reader which is a time consuming process and results in long queues at billing counters. Our aim is to develop a system that can be used in shopping malls to solve the above mentioned challenge. The system will be placed in all the trolleys.
 It will consist of a barcode scanner. All the products in the mall will be equipped with barcode. When a person puts any products in the trolley, its code will be detected and the price of those products will be stored in memory. As we put the products, the costs will get added to total bill. Thus the billing will be done in the trolley itself. Item name and its cost will be displayed on LCD. At the billing Counter the total bill data will be transferred to PC by wireless WIFI modules.
 
-        \n \nBy : Vivek Pujara,Parthav Shah,Dhruvesh Sheladiya,Neti Sheth,Mit Thakkar,Jinal Butani
+        \n \nBy : Vivek Pujara, Parthav Shah, Dhruvesh Sheladiya, Neti Sheth, Mit Thakkar, Jinal Butani.
 </string>
 
     <string name="solar_panel_content">Auto Rotating Solar Panel is mainly developed for maximum utilization of largest Renewable Source of Energy .It consists of servo motors which rotates the Solar Panel in direction of sunlight i.e. X and Y axis. We developed SUN DIRECTION sensor comprising of Light Dependent Resistors (LDR) which senses the maximum light and rotates the Solar Panel in the direction of maximum light sensed. Hence, irrespective of direction in which sun rises solar panel utilizes it up to maximum extent.
 
-        \n \nBy : Sarjan Patel, Romil Patel, Sneh Patel,Vraj Patel,Vraj Patel,Parth Patel
+        \n \nBy : Sarjan Patel, Romil Patel, Sneh Patel,Vraj Patel,Vraj Patel,Parth Patel.
 </string>
 
     <string name="alarm_content">India has a huge agricultural sector. The moisture of the soil is really important to maintain the fertility of the soil. Hence it is necessary to keep a continuous check on the soil moisture. Our device senses the soil moisture and sounds an alarm if the soil moisture is less than minimum value and more than maximum value of moisture. When the sensor is kept inside the soil it starts giving analog values of moisture level. The output of sensor is taken as input in the controller. Inside the controller, program is uploaded which checks the required moisture level. The controller keeps on working till the electricity supply is given to it.
 When the controller detects analog value out of range then the buzzer (alarm) attached at the output port of controller, starts beeping and produces noise. By this we can know that moisture level has gone out of range. Range is given as More moisture: 350, Less moisture: >550
 
-        \n \nBy :Vivek Pujara,Parthav Shah,Dhruvesh Sheladiya
+        \n \nBy :Vivek Pujara, Parthav Shah, Dhruvesh Sheladiya.
 </string>
 
     <string name="gps_content">An efficient vehicle tracking system is designed and implemented for tracking the movement of any equipped vehicle from any location at any time. the proposed system made good use of a popular technology that combines a smartphone application with a microcontroller. This will be easy to make and inexpensive compared to others. the designed in-vehicle device works using global positioning system (gps).
 
-        \n \nBy :Gaurav Kodwani, Nandeesh Bhatt
+        \n \nBy :Gaurav Kodwani, Nandeesh Bhatt.
 </string>
 
     <string name="dendroid_content">Dendroid is a tricky malicious virus that could access your personal life data. Dendroid is an http remote administration tool. it can be used to manipulate , locate and spy on an android device. Android rat is a client/server application developed in java android for the client side and in java/swing for the server.
 
-        \n \nBy :Parva Bhayani, Mayur Mehta, Kunal Mehta
+        \n \nBy :Parva Bhayani, Mayur Mehta, Kunal Mehta.
 </string>
 
     <string name="cryptography_content">Cryptography is a method of storing and transmitting data in a particular form so that only those for whom it is intended can read and process it. In this project, our algorithm is based on symmetric key cryptography which is divided into three steps: Manipulation of string, Ceaser-Cipher using equation and Substitution using two dimensional planes. The Two-dimensional plane is made on basis of user defined private key. Hence using Substitution and manipulation – our Software encrypts and decrypts the data respectively.
 
-        \n \nBy: Gaurav Kodwani, Mayur Mehta
+        \n \nBy: Gaurav Kodwani, Mayur Mehta.
 </string>
 
     <string name="control_robot_content">Our project is focused on the development of an Android Application in order to interact with robotic systems based on an Arduino microcontroller. Arduino is open microcontroller system that makes easy the control of simple robots. Android is an OS that is widely used in Phones and tablets.
 
-        \n \nBy: Aayushi Shah, Pooja Razdan, Birva Shah
+        \n \nBy: Aayushi Shah, Pooja Razdan, Birva Shah.
 </string>
 
 </resources>

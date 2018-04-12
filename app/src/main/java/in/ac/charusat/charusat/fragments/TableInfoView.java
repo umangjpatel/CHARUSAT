@@ -37,9 +37,6 @@ class TableInfoView {
 
     @Resolve
     void onResolved() {
-        legacyTableView.loadUrl("about:blank");
-        legacyTableView.clearCache(true);
-        legacyTableView.clearHistory();
         //TODO: Solve table bug
         LegacyTableView.insertLegacyTitle(mTitleArray);
         LegacyTableView.insertLegacyContent(mContentArray);

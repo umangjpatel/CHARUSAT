@@ -84,27 +84,13 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
-                        <option name="children">
-                          <map>
-                            <entry key="clipartAsset">
-                              <value>
-                                <PersistentState>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="url" value="jar:file:/home/iharsh/bin/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/communication/ic_location_on_black_24dp.xml" />
-                                    </map>
-                                  </option>
-                                </PersistentState>
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="autoMirrored" value="true" />
                             <entry key="opacityPercent" value="74" />
-                            <entry key="outputName" value="ic_location" />
-                            <entry key="sourceFile" value="$USER_HOME$/D:\APP PHotos\PNG\placementgraph.psd" />
+                            <entry key="outputName" value="top_projects" />
+                            <entry key="sourceFile" value="D:\APP PHotos\308154-education\psd\abacus-1.psd" />
                           </map>
                         </option>
                       </PersistentState>

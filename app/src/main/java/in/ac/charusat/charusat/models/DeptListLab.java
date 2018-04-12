@@ -135,6 +135,29 @@ public class DeptListLab {
                     details.add(new Detail(Detail.MAP_ADDRESS_TYPE, 0, R.string.it_address, R.drawable.caharusat_map));
                     break;
                 case 12:
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.gesture_car_title, R.string.gesture_car_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.wifi_attendece_title, R.string.wifi_attendence_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.home_raspberry_title, R.string.home_raspberry_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.intranet_title, R.string.intranet_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.online_quiz_title, R.string.online_quiz_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.elearning_title, R.string.elearning_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.blender_title, R.string.blender_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.contacter_title, R.string.contacter_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.smart_trolley_title, R.string.smart_trolley_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.solar_panel_title, R.string.solar_panel_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.alarm_system_title, R.string.alarm_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.gps_title, R.string.gps_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.dendroid_title, R.string.dendroid_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.cryptography_title, R.string.cryptography_content));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.control_robot_title, R.string.control_robot_content));
+                    break;
+                case 13:
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.about_us, R.string.it_about_dept));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.vision, R.string.it_vision_dept));
+                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.mission, R.string.it_mission_dept));
+                    break;
+
+                case 14:
                     details.add(new Detail(Detail.ABOUT_DEVELOPERS_TYPE, 0, 0));
                     break;
             }

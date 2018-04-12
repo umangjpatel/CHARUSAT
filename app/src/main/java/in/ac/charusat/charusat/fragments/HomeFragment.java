@@ -88,6 +88,8 @@ public class HomeFragment extends Fragment {
         mDeptAdapter = ArrayAdapter
                 .createFromResource(getActivity(), R.array.departments_array, android.R.layout.simple_spinner_item);
         mDeptAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+
         mDeptSpinner.setAdapter(mDeptAdapter);
     }
 

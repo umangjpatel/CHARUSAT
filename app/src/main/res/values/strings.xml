@@ -46,13 +46,29 @@
     <string name="mission">Mission</string>
     <string name="title_activity_maps">Map</string>
 
+    <string name="acty_system_text">Acty System</string>
+    <string name="crest_system_text">Crest Data System</string>
+    <string name="infochips_text">e-infochips</string>
+    <string name="gateway_text">Gateway</string>
+    <string name="indian_navy_text">Indian Navy</string>
+    <string name="indusa_text">Indusa</string>
+    <string name="inforstech_text">Infostrech</string>
+    <string name="infotech_text">Infotech</string>
+    <string name="sibridge_text">Sibridge</string>
+    <string name="synoverge_text">Synoverge</string>
+    <string name="tatvasoft_text">Tatvasoft</string>
+    <string name="tcs_text">TCS\n Tata Consultancy Service</string>
+    <string name="volanysis_text">Volansys</string>
+    <string name="vr_text">VR Software</string>
+
+
     <string name="fullForm">CHAROTAR UNIVERSITY OF SCIENCE AND TECHNOLOGY</string>
     <string name="caption_title">Accredited with grade A by NAAC, KCG</string>
     <string name="subtitle_app">Education Department, Govt. Of Gujarat</string>
     <string name="developed_by_header_label">Developed By :-</string>
 
     <string name="about_developers_header">Charusat University\n Faculty of Technology &amp; Engineering</string>
-    <string name="about_ranking">Ranked 105 by NIRF</string>
+    <string name="about_ranking">Ranked 101–150 by NIRF</string>
     <string name="darshan_prajapati">Darshan.R.Prajapati</string>
     <string name="darshan_prajapati_email">dprajapati5206@gmail.com</string>
     <string name="darshan_phone">+91 7600345206</string>

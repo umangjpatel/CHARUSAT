@@ -15,6 +15,7 @@ public class InfoListLab {
     private List<InfoList> mInfoLists;
     private HashMap<String, String> mToolbarTitlesList;
 
+
     public static InfoListLab getInstance() {
         if (sInfoListLab == null)
             sInfoListLab = new InfoListLab();
@@ -24,6 +25,7 @@ public class InfoListLab {
     private InfoListLab() {
         addInfoData();
         adToolbarTitlesData();
+
     }
 
     private void adToolbarTitlesData() {
@@ -55,6 +57,7 @@ public class InfoListLab {
         mInfoLists.add(new InfoList(R.drawable.ic_school_bus,R.string.top_recruiters));
         mInfoLists.add(new InfoList(R.drawable.ic_id_card, R.string.about_developers));
     }
+
 
     public List<InfoList> getInfoLists() {
         return mInfoLists;

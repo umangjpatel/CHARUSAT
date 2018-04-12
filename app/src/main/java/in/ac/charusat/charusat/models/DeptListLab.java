@@ -152,9 +152,8 @@ public class DeptListLab {
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.control_robot_title, R.string.control_robot_content));
                     break;
                 case 13:
-                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.about_us, R.string.it_about_dept));
-                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.vision, R.string.it_vision_dept));
-                    details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.mission, R.string.it_mission_dept));
+                    //TODO : Implement top recruiters
+                    details.add(new Detail(Detail.TOP_RECRUITERS_TYPE, 0, 0));
                     break;
 
                 case 14:

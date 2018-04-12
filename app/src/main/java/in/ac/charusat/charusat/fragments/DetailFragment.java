@@ -14,6 +14,8 @@ import java.util.ArrayList;
 
 import in.ac.charusat.charusat.R;
 import in.ac.charusat.charusat.models.Detail;
+import in.ac.charusat.charusat.models.RecruiterListLab;
+import in.ac.charusat.charusat.models.TableListLab;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,6 +26,8 @@ public class DetailFragment extends Fragment {
 
     private ArrayList<Detail> mDetails;
     private ExpandablePlaceHolderView mExpandableView;
+
+    private TableListLab mTableListLab;
 
     public DetailFragment() {
         // Required empty public constructor
@@ -36,6 +40,7 @@ public class DetailFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
         //Loading IT list item
         mDetails = getArguments().getParcelableArrayList(ARG_DETAIL_LIST);
+        mTableListLab = TableListLab.getInstance();
         //Display items in expandable recyclerview
         mExpandableView = view.findViewById(R.id.detail_expandable_view);
         for (Detail detail : mDetails) {
@@ -68,7 +73,7 @@ public class DetailFragment extends Fragment {
                     break;
                 case Detail.ONLY_TABLE_TYPE:
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
-                    mExpandableView.addView(new TableInfoView(getActivity(), detail));
+                    mExpandableView.addView(new TableInfoView(getActivity(), mTableListLab.getTableInfoList(detail.getTableType()).get(0), mTableListLab.getTableInfoList(detail.getTableType()).get(1)));
                     break;
                 case Detail.IMAGE_TABLE_TYPE:
                     mExpandableView.addView(new HeadingView(getActivity(), detail.getHeaderResId()));
@@ -80,6 +85,9 @@ public class DetailFragment extends Fragment {
                     break;
                 case Detail.ABOUT_DEVELOPERS_TYPE:
                     mExpandableView.addView(new DevelopersInfoView());
+                    break;
+                case Detail.TOP_RECRUITERS_TYPE:
+                    mExpandableView.addView(new RecruitersInfoView(getActivity(), RecruiterListLab.getInstance()));
                     break;
             }
         }

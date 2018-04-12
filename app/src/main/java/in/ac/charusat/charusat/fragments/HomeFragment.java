@@ -60,7 +60,7 @@ public class HomeFragment extends Fragment {
         final Handler handler = new Handler();
         final Runnable Update = () -> {
             mViewPager.setCurrentItem(currentPage, true);
-            currentPage = (currentPage + 1 ) % adapterView.getSliderImagesSize();
+            currentPage = (currentPage + 1) % adapterView.getSliderImagesSize();
         };
         timer = new Timer();
         timer.schedule(new TimerTask() {

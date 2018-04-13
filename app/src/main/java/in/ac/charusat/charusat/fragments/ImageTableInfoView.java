@@ -2,6 +2,7 @@ package in.ac.charusat.charusat.fragments;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatImageView;
+import android.support.v7.widget.AppCompatTextView;
 
 import com.levitnudi.legacytableview.LegacyTableView;
 import com.mindorks.placeholderview.annotations.Layout;
@@ -14,9 +15,14 @@ import java.util.ArrayList;
 
 import in.ac.charusat.charusat.R;
 import in.ac.charusat.charusat.models.Detail;
+import in.ac.charusat.charusat.models.TableListLab;
+
+import static android.view.View.*;
+import static android.view.View.GONE;
 
 @Layout(R.layout.images_table_feed_item)
 class ImageTableInfoView {
+
 
     @ParentPosition
     int mParentPosition;
@@ -27,8 +33,13 @@ class ImageTableInfoView {
     @View(R.id.detail_imageView)
     AppCompatImageView firstImageView;
 
+    @View(R.id.top_placements_textView)
+    AppCompatTextView topPlacementsTextView;
+
     @View(R.id.image_table_view)
     LegacyTableView legacyTableView;
+
+    private TableListLab mTableListLab;
 
     private Detail mDetail;
     private Context mContext;
@@ -40,11 +51,20 @@ class ImageTableInfoView {
         mDetail = info;
         mTitleArray = new ArrayList<>();
         mContentArray = new ArrayList<>();
+        mTableListLab = TableListLab.getInstance();
     }
 
     @Resolve
     void onResolved() {
-        firstImageView.setImageResource(mDetail.getImageResId());
+        if (mDetail.getImageResId() == 0) {
+            firstImageView.setVisibility(GONE);
+            topPlacementsTextView.setVisibility(GONE);
+        } else {
+            firstImageView.setVisibility(VISIBLE);
+            firstImageView.setImageResource(mDetail.getImageResId());
+            topPlacementsTextView.setVisibility(VISIBLE);
+        }
+
 
         if (mDetail.getTableType().equals(Detail.TOP_PLACEMENT)) {
             mTitleArray.add("Year");
@@ -83,6 +103,19 @@ class ImageTableInfoView {
             LegacyTableView.insertLegacyTitle(mTitleArray.toArray(new String[mTitleArray.size()]));
             //set table contents as string arrays
             LegacyTableView.insertLegacyContent(mContentArray.toArray(new String[mContentArray.size()]));
+            legacyTableView.setTitle(LegacyTableView.readLegacyTitle());
+            legacyTableView.setContent(LegacyTableView.readLegacyContent());
+            legacyTableView.setTablePadding(7);
+            legacyTableView.setTitleTextSize(32);
+            legacyTableView.setContentTextSize(28);
+            legacyTableView.build();
+        } else {
+            String[] titleArray = mTableListLab.getTableInfoList(mDetail.getTableType()).get(0);
+            String[] contentArray = mTableListLab.getTableInfoList(mDetail.getTableType()).get(1);
+
+            LegacyTableView.insertLegacyTitle(titleArray);
+            //set table contents as string arrays
+            LegacyTableView.insertLegacyContent(contentArray);
             legacyTableView.setTitle(LegacyTableView.readLegacyTitle());
             legacyTableView.setContent(LegacyTableView.readLegacyContent());
             legacyTableView.setTablePadding(7);

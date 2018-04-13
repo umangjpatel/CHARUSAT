@@ -16,12 +16,13 @@
         tools:srcCompat="@drawable/acm_banner" />
 
     <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/top_placements_textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/text"
+        android:fontFamily="@font/roboto_slab"
         android:text="Top Placements"
         android:textAlignment="center"
-        android:fontFamily="@font/roboto_slab"
         android:textColor="@color/white"
         android:textSize="20sp" />
 
@@ -29,7 +30,6 @@
         android:id="@+id/image_table_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        />
+        android:textAlignment="center" />
 
 </android.support.v7.widget.LinearLayoutCompat>

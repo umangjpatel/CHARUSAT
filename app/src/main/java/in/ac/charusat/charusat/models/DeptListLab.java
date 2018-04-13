@@ -38,7 +38,7 @@ public class DeptListLab {
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.mission, R.string.it_mission_dept));
                     break;
                 case 1:
-                    details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_btech_admission_stats, Detail.BTECH_ADMIN));
+                    details.add(new Detail(Detail.IMAGE_TABLE_TYPE, R.string.it_btech_admission_stats, 0, Detail.BTECH_ADMIN));
                     details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_mtech_admission_stats, Detail.MTECH_ADMIN));
                     break;
                 case 2:
@@ -56,7 +56,7 @@ public class DeptListLab {
                     break;
                 case 4:
                     details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_mou, Detail.MOU));
-                    details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_collaborative_projects, Detail.COLLAB_PROJECT));
+                    details.add(new Detail(Detail.IMAGE_TABLE_TYPE, R.string.it_collaborative_projects, 0, Detail.COLLAB_PROJECT));
 
                     break;
                 case 5:
@@ -93,7 +93,7 @@ public class DeptListLab {
                     break;
                 case 8:
                     details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_consultancy_information, Detail.CONSULTANCY));
-                    details.add(new Detail(Detail.ONLY_TABLE_TYPE, R.string.it_resource_generation, Detail.RESOURCE_GENERATION));
+                    details.add(new Detail(Detail.IMAGE_TABLE_TYPE, R.string.it_resource_generation, 0, Detail.RESOURCE_GENERATION));
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.it_grants_information, R.string.it_detail_grants_information));
                     break;
                 case 9:
@@ -152,7 +152,6 @@ public class DeptListLab {
                     details.add(new Detail(Detail.ONLY_TEXT_TYPE, R.string.control_robot_title, R.string.control_robot_content));
                     break;
                 case 13:
-                    //TODO : Implement top recruiters
                     details.add(new Detail(Detail.TOP_RECRUITERS_TYPE, 0, 0));
                     break;
 
